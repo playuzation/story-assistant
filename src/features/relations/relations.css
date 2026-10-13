@@ -1,0 +1,117 @@
+.board-list {
+  padding: 12px;
+}
+
+.board-list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.board-main {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.board-toolbar {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  flex-wrap: nowrap;
+}
+
+.board-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.board-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+}
+
+.board-canvas {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+}
+
+.board-empty {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  padding: 0 24px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.entity-node {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: 180px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 2px solid var(--kind-color);
+  font-size: 14px;
+}
+
+.entity-node.selected {
+  box-shadow: 0 0 0 3px rgba(79, 107, 237, 0.35);
+}
+
+.entity-node-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 터치로 잡기 쉽도록 연결점 확대 */
+.entity-node .react-flow__handle {
+  width: 12px;
+  height: 12px;
+  background: var(--kind-color);
+}
+
+.derived-edge path {
+  stroke-dasharray: 6 4;
+}
+
+.panel-subtitle {
+  font-size: 14px;
+  margin: 16px 0 6px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.link-list button {
+  width: 100%;
+  text-align: left;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+  .entity-node .react-flow__handle {
+    width: 18px;
+    height: 18px;
+  }
+}
