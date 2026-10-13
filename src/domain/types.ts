@@ -83,11 +83,20 @@ export interface Board {
   nodes: BoardNode[];
 }
 
+/** 이야기 정보 */
+export interface StoryMeta {
+  title: string;
+  description: string;
+}
+
+export const EMPTY_STORY: StoryMeta = { title: '', description: '' };
+
 export interface StoryData {
+  story: StoryMeta;
   entities: Entity[];
   folders: Folder[];
   relations: Relation[];
   boards: Board[];
 }
 
-export const EMPTY_DATA: StoryData = { entities: [], folders: [], relations: [], boards: [] };
+export const EMPTY_DATA: StoryData = { story: EMPTY_STORY, entities: [], folders: [], relations: [], boards: [] };

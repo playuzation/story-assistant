@@ -29,9 +29,45 @@ GitHub Pages로 배포되며 PC와 모바일 브라우저에서 모두 사용할
 - 가상 달력도 다룰 수 있도록 실제 시간 간격이 아닌 **순서** 기준으로 배치합니다.
 - 설정 페이지의 폴더로 범위를 좁혀 볼 수 있습니다.
 
-### 데이터 저장
-- 데이터는 서버 없이 **브라우저(localStorage)** 에 자동 저장됩니다. 다른 기기나 브라우저와는 공유되지 않습니다.
-- 상단의 **내보내기 / 가져오기**로 JSON 파일을 백업하거나 복원하세요.
+### 이야기 저장 / 불러오기
+- 작업 내용은 서버 없이 **브라우저(localStorage)** 에 자동 저장됩니다. 다른 기기나 브라우저와는 공유되지 않습니다.
+- 상단의 **📖 이야기 버튼**에서 제목·설명을 입력하고, 이야기를 **파일로 저장**하거나 **불러오기**, **새 이야기**를 시작할 수 있습니다.
+  - 이야기 하나가 파일 하나(`제목.story.json`)입니다.
+  - 불러오거나 새로 시작하면 지금 작업 중인 이야기는 바뀌므로, 필요하면 먼저 저장하세요.
+- 불러올 때 형식이 어긋난 값은 기본값으로 채우고, 끊어진 참조(없는 요소를 가리키는 관계 등)는 정리한 뒤 알려 줍니다.
+
+## 이야기 파일 형식 (`.story.json`, schemaVersion 1)
+
+```json
+{
+  "format": "story-assistant",
+  "schemaVersion": 1,
+  "savedAt": "2026-10-13T00:00:00.000Z",
+  "story": { "title": "제목", "description": "설명" },
+  "graph": {
+    "nodes": [
+      { "id": "…", "kind": "character", "name": "아린", "folderId": "…", "description": "", "attributes": [], "dates": [] },
+      { "id": "…", "kind": "event", "name": "추격전", "folderId": null, "description": "", "attributes": [], "dates": [],
+        "startDate": { "year": 312, "month": 3, "day": null }, "endDate": { "year": null, "month": null, "day": null },
+        "characterIds": ["…"], "placeIds": ["…"] }
+    ],
+    "edges": [{ "id": "…", "source": "…", "target": "…", "label": "라이벌", "description": "" }]
+  },
+  "folders": [{ "id": "…", "scope": "settings", "name": "1부", "parentId": null }],
+  "views": { "boards": [{ "id": "…", "name": "주인공", "folderId": null, "layout": { "<노드 id>": { "x": 0, "y": 0 } } }] }
+}
+```
+
+| 영역 | 내용 |
+| --- | --- |
+| `story` | 이야기 정보 |
+| `graph.nodes` | 요소. `kind`는 `character`(인물) / `event`(사건) / `place`(배경) / `item`(물건). 사건 전용 필드(`startDate`, `endDate`, `characterIds`, `placeIds`)는 사건에만 기록 |
+| `graph.edges` | 관계(방향 있음). 같은 두 노드 사이에 여러 개 가능 |
+| `folders` | 폴더 트리. `scope`는 `settings`(설정 페이지) / `relations`(관계도 페이지) |
+| `views.boards` | 관계도와 노드 배치 좌표 |
+
+- 날짜는 `{ year, month, day }` 숫자이며 비어 있으면 `null`입니다. `year`가 `null`이면 날짜 미정입니다.
+- 형식이 바뀌면 `schemaVersion`을 올리고, 앱이 이전 버전 파일을 변환해서 불러옵니다. 더 새로운 버전의 파일은 불러오지 않습니다.
 
 ## 개발
 
@@ -51,14 +87,14 @@ npm run build    # 타입 검사 + 프로덕션 빌드 (dist/)
 ```
 src/
 ├── main.tsx             진입점
-├── app/                 앱 셸: 헤더, 해시 라우팅, 백업 메뉴
+├── app/                 앱 셸: 헤더, 해시 라우팅, 이야기 메뉴(저장/불러오기)
 ├── features/
 │   ├── settings/        설정 페이지
 │   ├── relations/       관계도 페이지 (React Flow)
 │   └── timeline/        타임라인 페이지
 ├── store/               zustand 상태 + localStorage 영속화
 ├── shared/ui/           범용 UI (폴더 트리, 사이드바, 상세 패널, 배지)
-└── domain/              타입과 순수 함수 (다른 모듈을 import하지 않음)
+└── domain/              타입, 순수 함수, 이야기 파일 변환 (다른 모듈을 import하지 않음)
 ```
 
 ```

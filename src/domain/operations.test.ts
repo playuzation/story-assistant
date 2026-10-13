@@ -5,11 +5,10 @@ import {
   descendantFolderIds,
   folderPath,
   normalizeStoryData,
-  parseStoryData,
   removeEntity,
   removeFolder,
 } from './operations.ts';
-import type { Folder, StoryData } from './types.ts';
+import { EMPTY_STORY, type Folder, type StoryData } from './types.ts';
 
 const folders: Folder[] = [
   { id: 'a', scope: 'settings', name: 'A', parentId: null },
@@ -31,6 +30,7 @@ describe('folders', () => {
   it('moves children and contents to the parent when a folder is removed', () => {
     const entity = { ...createEntity('character', 'b'), id: 'e1' };
     const data: StoryData = {
+      story: EMPTY_STORY,
       folders,
       entities: [entity],
       relations: [],
@@ -50,6 +50,7 @@ describe('removeEntity', () => {
     const town = { ...createEntity('place', null), id: 'town' };
     const battle = { ...createEntity('event', null), id: 'battle', characterIds: ['hero'], placeIds: ['town', 'town'] };
     const data: StoryData = {
+      story: EMPTY_STORY,
       folders: [],
       entities: [hero, town, battle],
       relations: [{ id: 'r', sourceId: 'hero', targetId: 'town', label: '고향', description: '' }],
@@ -84,19 +85,12 @@ describe('addNodesToBoard', () => {
   });
 });
 
-describe('parseStoryData', () => {
-  it('accepts a valid file and rejects an invalid one', () => {
-    const data = { entities: [], folders: [], relations: [], boards: [] };
-    expect(parseStoryData(data)).toEqual(data);
-    expect(() => parseStoryData({ entities: [] })).toThrow();
-    expect(() => parseStoryData(null)).toThrow();
-  });
-});
-
 describe('normalizeStoryData', () => {
   it('fills fields added in later versions without touching existing values', () => {
     const legacy = { id: 'old', kind: 'event', name: '옛 사건', folderId: null, description: '', attributes: [], characterIds: ['x'], placeIds: [] };
-    const [entity] = normalizeStoryData({ entities: [legacy as never], folders: [], relations: [], boards: [] }).entities;
+    const normalized = normalizeStoryData({ entities: [legacy], folders: [], relations: [], boards: [] } as unknown as StoryData);
+    const [entity] = normalized.entities;
+    expect(normalized.story).toEqual(EMPTY_STORY);
     expect(entity.id).toBe('old');
     expect(entity.characterIds).toEqual(['x']);
     expect(entity.dates).toEqual([]);

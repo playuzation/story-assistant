@@ -45,6 +45,32 @@
   min-height: 0;
 }
 
+.story-button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 220px;
+}
+
+.story-button-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.story-dialog {
+  width: min(92vw, 440px);
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+  background: var(--surface);
+}
+
+.story-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 768px) {
   .app-title {
     display: none;
@@ -58,7 +84,8 @@
     padding: 6px 8px;
   }
 
-  .backup-menu button {
+  .story-button {
+    max-width: 120px;
     padding: 4px 8px;
     font-size: 13px;
   }
