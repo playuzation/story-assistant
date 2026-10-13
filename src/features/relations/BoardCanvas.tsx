@@ -14,9 +14,12 @@ import { useStoryStore } from '../../store/index.ts';
 import { DetailPanel } from '../../shared/ui/index.ts';
 import { EntityNode, type EntityFlowNode } from './EntityNode.tsx';
 import { BoardSettingsPanel, NodePanel, RelationPanel } from './BoardPanels.tsx';
+import { ParallelEdge } from './ParallelEdge.tsx';
+import { withParallelOffsets } from './parallelEdges.ts';
 import type { PanelState } from './panelState.ts';
 
 const nodeTypes = { entity: EntityNode };
+const edgeTypes = { parallel: ParallelEdge };
 
 function buildNodes(board: Board, entities: Entity[], selectedId: string | null): EntityFlowNode[] {
   const byId = new Map(entities.map((e) => [e.id, e]));
@@ -51,7 +54,7 @@ function buildEdges(board: Board, entities: Entity[], relations: Relation[], sel
       if (onBoard.has(id)) edges.push({ ...derived, id: `event:${e.id}:place:${i}`, target: id, label: `배경 ${i + 1}` });
     });
   }
-  return edges;
+  return withParallelOffsets(edges);
 }
 
 interface BoardCanvasProps {
@@ -98,6 +101,7 @@ export function BoardCanvas({ board, onOpenTree }: BoardCanvasProps) {
             nodes={nodes}
             edges={edges}
             nodeTypes={nodeTypes}
+            edgeTypes={edgeTypes}
             onNodesChange={onNodesChange}
             onNodeDragStop={(_, __, dragged) =>
               dragged.forEach((n) => moveBoardNode(board.id, n.id, n.position.x, n.position.y))
