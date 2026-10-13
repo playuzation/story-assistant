@@ -50,6 +50,14 @@
     display: none;
   }
 
+  .app-header {
+    gap: 6px;
+  }
+
+  .app-nav a {
+    padding: 6px 8px;
+  }
+
   .backup-menu button {
     padding: 4px 8px;
     font-size: 13px;

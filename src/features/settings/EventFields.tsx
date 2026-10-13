@@ -1,13 +1,14 @@
 import { useMemo } from 'react';
 import type { Entity } from '../../domain/index.ts';
 import { useStoryStore } from '../../store/index.ts';
+import { DateInput } from './DateInput.tsx';
 
 interface EventFieldsProps {
   event: Entity;
   onChange: (patch: Partial<Entity>) => void;
 }
 
-/** 사건 전용: 등장 인물과 배경 전환 순서 */
+/** 사건 전용: 기간, 등장 인물, 배경 전환 순서 */
 export function EventFields({ event, onChange }: EventFieldsProps) {
   const entities = useStoryStore((s) => s.entities);
   const characters = useMemo(() => entities.filter((e) => e.kind === 'character'), [entities]);
@@ -31,6 +32,18 @@ export function EventFields({ event, onChange }: EventFieldsProps) {
 
   return (
     <>
+      <fieldset className="field-group">
+        <legend>기간</legend>
+        <div className="date-row">
+          <span className="date-row-label">발생일</span>
+          <DateInput value={event.startDate} onChange={(startDate) => onChange({ startDate })} />
+        </div>
+        <div className="date-row">
+          <span className="date-row-label">종료일</span>
+          <DateInput value={event.endDate} onChange={(endDate) => onChange({ endDate })} />
+        </div>
+      </fieldset>
+
       <fieldset className="field-group">
         <legend>등장 인물</legend>
         {characters.length === 0 ? (

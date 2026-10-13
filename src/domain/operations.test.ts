@@ -4,6 +4,7 @@ import {
   createEntity,
   descendantFolderIds,
   folderPath,
+  normalizeStoryData,
   parseStoryData,
   removeEntity,
   removeFolder,
@@ -89,5 +90,16 @@ describe('parseStoryData', () => {
     expect(parseStoryData(data)).toEqual(data);
     expect(() => parseStoryData({ entities: [] })).toThrow();
     expect(() => parseStoryData(null)).toThrow();
+  });
+});
+
+describe('normalizeStoryData', () => {
+  it('fills fields added in later versions without touching existing values', () => {
+    const legacy = { id: 'old', kind: 'event', name: '옛 사건', folderId: null, description: '', attributes: [], characterIds: ['x'], placeIds: [] };
+    const [entity] = normalizeStoryData({ entities: [legacy as never], folders: [], relations: [], boards: [] }).entities;
+    expect(entity.id).toBe('old');
+    expect(entity.characterIds).toEqual(['x']);
+    expect(entity.dates).toEqual([]);
+    expect(entity.startDate).toEqual({ year: null, month: null, day: null });
   });
 });

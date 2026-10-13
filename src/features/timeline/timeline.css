@@ -1,0 +1,45 @@
+.timeline-main {
+  padding: 12px;
+}
+
+.timeline-filter {
+  max-width: 320px;
+}
+
+.timeline {
+  display: grid;
+  column-gap: 6px;
+  padding: 8px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+/* 날짜 열의 오른쪽 선이 시간 축 */
+.timeline-date {
+  padding: 8px 8px 8px 0;
+  border-right: 2px solid var(--border);
+  font-size: 13px;
+  color: var(--muted);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.timeline-items {
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-bottom: 1px dashed var(--border);
+}
+
+/* 사건 기간: 시작 행부터 종료 행까지 이어지는 막대 */
+.timeline-bar {
+  margin: 10px 3px;
+  min-height: 8px;
+  border-radius: 999px;
+  background: var(--event);
+  opacity: 0.85;
+}

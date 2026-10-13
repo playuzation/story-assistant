@@ -1,4 +1,4 @@
-import type { Board, Entity, EntityKind, Folder, StoryData } from './types.ts';
+import { EMPTY_DATE, type Board, type Entity, type EntityKind, type Folder, type StoryData } from './types.ts';
 
 export const newId = (): string => crypto.randomUUID();
 
@@ -12,7 +12,15 @@ export function createEntity(kind: EntityKind, folderId: string | null): Entity 
     attributes: [],
     characterIds: [],
     placeIds: [],
+    dates: [],
+    startDate: EMPTY_DATE,
+    endDate: EMPTY_DATE,
   };
+}
+
+/** 이전 버전 데이터에 없는 필드를 기본값으로 채운다 */
+export function normalizeStoryData(data: StoryData): StoryData {
+  return { ...data, entities: data.entities.map((e) => ({ ...createEntity(e.kind, e.folderId), ...e })) };
 }
 
 /** folderId 자신과 모든 하위 폴더 id */
@@ -110,5 +118,5 @@ export function parseStoryData(raw: unknown): StoryData {
   ) {
     throw new Error('올바른 Story Assistant 데이터 파일이 아닙니다.');
   }
-  return { entities: data.entities, folders: data.folders, relations: data.relations, boards: data.boards };
+  return normalizeStoryData({ entities: data.entities, folders: data.folders, relations: data.relations, boards: data.boards });
 }
