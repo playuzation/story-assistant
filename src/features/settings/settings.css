@@ -1,0 +1,88 @@
+.settings-main {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.settings-folder-name {
+  font-size: 18px;
+}
+
+.kind-tabs button {
+  border-radius: 999px;
+}
+
+.entity-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+}
+
+.entity-card {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+}
+
+.entity-card.selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.entity-desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.field-group {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 0 0 12px;
+  padding: 8px 10px 10px;
+}
+
+.field-group legend {
+  font-size: 13px;
+  color: var(--muted);
+  padding: 0 4px;
+}
+
+.attribute-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.attribute-row textarea {
+  grid-column: 1 / -1;
+  min-height: 56px;
+}
+
+.chip {
+  border-radius: 999px;
+  font-size: 14px;
+}
+
+.chip.on {
+  background: var(--character);
+  border-color: var(--character);
+  color: #fff;
+}
+
+.place-steps {
+  margin: 0 0 8px;
+  padding-left: 20px;
+}
+
+.place-step-name {
+  flex: 1;
+}
