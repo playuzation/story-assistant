@@ -17,6 +17,22 @@ export interface Attribute {
   value: string;
 }
 
+/** 이야기 속 날짜: 가상 달력도 쓸 수 있도록 각 값은 숫자로만 저장 (연도가 없으면 미정) */
+export interface StoryDate {
+  year: number | null;
+  month: number | null;
+  day: number | null;
+}
+
+export const EMPTY_DATE: StoryDate = { year: null, month: null, day: null };
+
+/** 기념일 등 이름 붙은 날짜 */
+export interface DateEntry {
+  id: string;
+  label: string;
+  date: StoryDate;
+}
+
 export interface Entity {
   id: string;
   kind: EntityKind;
@@ -28,6 +44,11 @@ export interface Entity {
   characterIds: string[];
   /** 사건 전용: 배경 전환 순서 */
   placeIds: string[];
+  /** 기념일 등 (모든 종류) */
+  dates: DateEntry[];
+  /** 사건 전용: 발생일 / 종료일 */
+  startDate: StoryDate;
+  endDate: StoryDate;
 }
 
 /** settings: 설정 페이지 폴더, relations: 관계 페이지 폴더 */

@@ -86,3 +86,39 @@
 .place-step-name {
   flex: 1;
 }
+
+.date-input {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.date-input label {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  white-space: nowrap;
+}
+
+.date-input input {
+  width: 4.5em;
+}
+
+.date-input label:first-child input {
+  width: 6em;
+}
+
+.date-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.date-row-label {
+  font-size: 13px;
+  color: var(--muted);
+  min-width: 3em;
+}

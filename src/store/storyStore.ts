@@ -5,6 +5,7 @@ import {
   addNodesToBoard,
   createEntity,
   newId,
+  normalizeStoryData,
   removeEntity,
   removeFolder,
   type Board,
@@ -108,7 +109,13 @@ export const useStoryStore = create<StoryState>()(
 
       replaceData: (data) => set(pickData(data)),
     }),
-    { name: 'story-assistant:data', version: 1, partialize: (s: StoryState) => pickData(s) },
+    {
+      name: 'story-assistant:data',
+      // v2: 날짜(기념일, 사건 발생일/종료일) 필드 추가
+      version: 2,
+      partialize: (s: StoryState) => pickData(s),
+      migrate: (persisted) => normalizeStoryData(persisted as StoryData),
+    },
   ),
 );
 
