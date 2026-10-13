@@ -8,7 +8,7 @@ export const KIND_LABEL: Record<EntityKind, string> = {
   character: '인물',
   event: '사건',
   place: '배경',
-  item: '물건 등',
+  item: '물건',
 };
 
 export interface Attribute {
