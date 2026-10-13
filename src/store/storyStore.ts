@@ -14,9 +14,12 @@ import {
   type FolderScope,
   type Relation,
   type StoryData,
+  type StoryMeta,
 } from '../domain/index.ts';
 
 interface StoryActions {
+  updateStory: (patch: Partial<StoryMeta>) => void;
+
   addEntity: (kind: EntityKind, folderId: string | null) => string;
   updateEntity: (id: string, patch: Partial<Omit<Entity, 'id' | 'kind'>>) => void;
   deleteEntity: (id: string) => void;
@@ -45,6 +48,7 @@ const mapBoard = (boards: Board[], id: string, fn: (b: Board) => Board) =>
   boards.map((b) => (b.id === id ? fn(b) : b));
 
 const pickData = (s: StoryData): StoryData => ({
+  story: s.story,
   entities: s.entities,
   folders: s.folders,
   relations: s.relations,
@@ -55,6 +59,8 @@ export const useStoryStore = create<StoryState>()(
   persist(
     (set) => ({
       ...EMPTY_DATA,
+
+      updateStory: (patch) => set((s) => ({ story: { ...s.story, ...patch } })),
 
       addEntity: (kind, folderId) => {
         const entity = createEntity(kind, folderId);
@@ -111,13 +117,13 @@ export const useStoryStore = create<StoryState>()(
     }),
     {
       name: 'story-assistant:data',
-      // v2: 날짜(기념일, 사건 발생일/종료일) 필드 추가
-      version: 2,
+      // v2: 날짜(기념일, 사건 발생일/종료일) 필드 추가, v3: 이야기 정보(story) 추가
+      version: 3,
       partialize: (s: StoryState) => pickData(s),
       migrate: (persisted) => normalizeStoryData(persisted as StoryData),
     },
   ),
 );
 
-/** 현재 데이터 스냅샷 (내보내기용) */
+/** 현재 데이터 스냅샷 (파일 저장용) */
 export const getStoryData = (): StoryData => pickData(useStoryStore.getState());

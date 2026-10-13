@@ -2,7 +2,7 @@ import { createElement, useEffect, useState } from 'react';
 import { SettingsPage } from '../features/settings/index.ts';
 import { RelationsPage } from '../features/relations/index.ts';
 import { TimelinePage } from '../features/timeline/index.ts';
-import { BackupMenu } from './BackupMenu.tsx';
+import { StoryMenu } from './StoryMenu.tsx';
 import './app.css';
 
 const PAGES = {
@@ -21,6 +21,8 @@ const readRoute = (): Route => {
 
 export function App() {
   const [route, setRoute] = useState<Route>(readRoute);
+  // 이야기를 통째로 바꾸면 페이지를 다시 마운트해 이전 선택 상태를 비운다
+  const [session, setSession] = useState(0);
 
   useEffect(() => {
     const onHashChange = () => setRoute(readRoute());
@@ -39,9 +41,11 @@ export function App() {
             </a>
           ))}
         </nav>
-        <BackupMenu />
+        <StoryMenu onReplace={() => setSession((n) => n + 1)} />
       </header>
-      <div className="app-content">{createElement(PAGES[route].Page)}</div>
+      <div className="app-content" key={session}>
+        {createElement(PAGES[route].Page)}
+      </div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { EMPTY_DATE, type Board, type Entity, type EntityKind, type Folder, type StoryData } from './types.ts';
+import { EMPTY_DATE, EMPTY_STORY, type Board, type Entity, type EntityKind, type Folder, type StoryData } from './types.ts';
 
 export const newId = (): string => crypto.randomUUID();
 
@@ -20,7 +20,11 @@ export function createEntity(kind: EntityKind, folderId: string | null): Entity 
 
 /** 이전 버전 데이터에 없는 필드를 기본값으로 채운다 */
 export function normalizeStoryData(data: StoryData): StoryData {
-  return { ...data, entities: data.entities.map((e) => ({ ...createEntity(e.kind, e.folderId), ...e })) };
+  return {
+    ...data,
+    story: { ...EMPTY_STORY, ...data.story },
+    entities: data.entities.map((e) => ({ ...createEntity(e.kind, e.folderId), ...e })),
+  };
 }
 
 /** folderId 자신과 모든 하위 폴더 id */
@@ -104,19 +108,4 @@ export function addNodesToBoard(board: Board, entityIds: string[]): Board {
     existing.add(entityId);
   }
   return { ...board, nodes };
-}
-
-/** 가져오기 파일의 최소 형식 검증 */
-export function parseStoryData(raw: unknown): StoryData {
-  const data = raw as Partial<StoryData> | null;
-  if (
-    !data ||
-    !Array.isArray(data.entities) ||
-    !Array.isArray(data.folders) ||
-    !Array.isArray(data.relations) ||
-    !Array.isArray(data.boards)
-  ) {
-    throw new Error('올바른 Story Assistant 데이터 파일이 아닙니다.');
-  }
-  return normalizeStoryData({ entities: data.entities, folders: data.folders, relations: data.relations, boards: data.boards });
 }
