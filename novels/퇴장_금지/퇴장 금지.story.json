@@ -1,0 +1,4012 @@
+{
+  "format": "story-assistant",
+  "schemaVersion": 1,
+  "savedAt": "2026-10-14T03:24:25.211Z",
+  "story": {
+    "title": "퇴장 금지",
+    "description": "삼류 극작가와 소극장 비상구의 마지막 시즌. 사람들 머리 위에 떠 있는 「지문」이 보이는 삼류 극작가 차무진은 문을 닫는 대학로 소극장의 마지막 공연을 쓰게 되고, 3년 전 자기 손으로 막을 내려 버린 배우 서해원의 머리 위에서 단 한 줄의 지문을 본다. (퇴장한다.) 전 2부 12장 60화."
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "c-mujin",
+        "kind": "character",
+        "name": "차무진",
+        "folderId": "f-c-core",
+        "description": "화자. 삼류 극작가. 3년 전 데뷔작 「유리 계단」을 자기 고집으로 사흘 만에 내린 뒤, 철수하던 밤 소극장 비상구의 캣워크에서 떨어졌다. 깨어나 보니 사람들 머리 위에 희곡의 지문 같은 글 한 줄이 떠 있었다. 자기 지문만은 볼 수 없다.",
+        "attributes": [
+          {
+            "id": "a1",
+            "key": "나이",
+            "value": "28"
+          },
+          {
+            "id": "a2",
+            "key": "직업",
+            "value": "극작가 · 무대 크루 일용직 · 편의점 야간 알바"
+          },
+          {
+            "id": "a3",
+            "key": "사는곳",
+            "value": "명륜동 옥탑방"
+          },
+          {
+            "id": "a4",
+            "key": "외모",
+            "value": "마른 체격, 검은 볼캡과 검은 옷, 왼쪽 눈썹 위 꿰맨 흉터, 귀에 꽂은 볼펜"
+          },
+          {
+            "id": "a5",
+            "key": "성격",
+            "value": "냉소적인 관찰자. 사람을 인물로, 장면을 큐로 읽는다. 결정적인 순간에 도망치는 버릇"
+          },
+          {
+            "id": "a6",
+            "key": "능력",
+            "value": "지문(순간 지문 · 굳은 지문)을 본다. 막을 수는 없고 지문 다음만 바꿀 수 있다"
+          },
+          {
+            "id": "a7",
+            "key": "비밀",
+            "value": "해원의 쪽지를 3년째 지갑에 넣고 다닌다"
+          },
+          {
+            "id": "a8",
+            "key": "1부",
+            "value": "보이는 것(지문)만 훔쳐 쓰는 작가"
+          },
+          {
+            "id": "a9",
+            "key": "2부",
+            "value": "보이지 않는 것을 쓰는 작가. 마지막에 지문을 잃는다"
+          },
+          {
+            "id": "a10",
+            "key": "자기 지문",
+            "value": "(쓴다.) — 59화에 해원이 읽어 준다"
+          }
+        ],
+        "dates": [
+          {
+            "id": "d11",
+            "label": "「유리 계단」 개막",
+            "date": {
+              "year": 2022,
+              "month": 11,
+              "day": 10
+            }
+          },
+          {
+            "id": "d12",
+            "label": "캣워크 추락",
+            "date": {
+              "year": 2022,
+              "month": 11,
+              "day": 13
+            }
+          },
+          {
+            "id": "d13",
+            "label": "지문이 사라진 밤",
+            "date": {
+              "year": 2026,
+              "month": 3,
+              "day": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "c-haewon",
+        "kind": "character",
+        "name": "서해원",
+        "folderId": "f-c-core",
+        "description": "배우. 3년 전 「유리 계단」의 주연. 메니에르병으로 왼쪽 귀가 거의 들리지 않고 오른쪽 귀도 나빠지고 있다. 이번 고별 공연을 끝으로 무대를 떠나기로 했다. 머리 위의 굳은 지문은 (퇴장한다.)",
+        "attributes": [
+          {
+            "id": "a14",
+            "key": "나이",
+            "value": "28"
+          },
+          {
+            "id": "a15",
+            "key": "출신",
+            "value": "통영"
+          },
+          {
+            "id": "a16",
+            "key": "외모",
+            "value": "어깨까지 오는 검은 생머리, 왼쪽 머리를 내려 귀를 가린다, 회색 롱코트, 낡은 흰 운동화"
+          },
+          {
+            "id": "a17",
+            "key": "성격",
+            "value": "차분하고 단호하다. 동정을 싫어한다. 건조한 유머"
+          },
+          {
+            "id": "a18",
+            "key": "습관",
+            "value": "상대를 자기 오른쪽에 둔다(무진의 왼쪽에 선다). 놓친 말은 \"한 번만 더요.\""
+          },
+          {
+            "id": "a19",
+            "key": "건강",
+            "value": "저염식, 커피와 술을 끊음, 이름표 없는 약통"
+          },
+          {
+            "id": "a20",
+            "key": "굳은 지문",
+            "value": "(퇴장한다.) → 58화 (등장한다.)"
+          },
+          {
+            "id": "a21",
+            "key": "1부",
+            "value": "3년 전 막공을 빼앗긴 배우"
+          },
+          {
+            "id": "a22",
+            "key": "2부",
+            "value": "퇴장을 스스로 고르고, 다녀오겠다고 말한다"
+          },
+          {
+            "id": "a23",
+            "key": "배역",
+            "value": "여자"
+          }
+        ],
+        "dates": [
+          {
+            "id": "d24",
+            "label": "데뷔(「여름 정류장」)",
+            "date": {
+              "year": 2019,
+              "month": null,
+              "day": null
+            }
+          },
+          {
+            "id": "d25",
+            "label": "메니에르병 진단",
+            "date": {
+              "year": 2023,
+              "month": 10,
+              "day": null
+            }
+          },
+          {
+            "id": "d26",
+            "label": "아버지가 바다에서 돌아오지 못한 해",
+            "date": {
+              "year": 2009,
+              "month": null,
+              "day": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "c-myeongja",
+        "kind": "character",
+        "name": "권명자",
+        "folderId": "f-c-troupe",
+        "description": "소극장 비상구 대표이자 고별 공연 연출. 남편 하봉수와 1990년 극장을 열었고, 남편이 죽은 뒤 혼자 지켰다. 남편이 지문을 봤다는 걸 알고 있어서 무진의 눈도 처음부터 짐작했다.",
+        "attributes": [
+          {
+            "id": "a27",
+            "key": "나이",
+            "value": "74"
+          },
+          {
+            "id": "a28",
+            "key": "외모",
+            "value": "작고 마른 체구, 짧은 흰머리, 빨간 뿔테, 군청색 점퍼, 불 붙이지 않은 담배"
+          },
+          {
+            "id": "a29",
+            "key": "말투",
+            "value": "짧은 반말. \"됐고.\" \"막 올리자.\" 무진은 \"작가 양반\""
+          },
+          {
+            "id": "a30",
+            "key": "굳은 지문",
+            "value": "(열쇠를 돌려준다.) — 끝까지 바뀌지 않는다"
+          },
+          {
+            "id": "a31",
+            "key": "비밀",
+            "value": "하봉수의 마지막 노트(2014)를 따로 갖고 있다"
+          },
+          {
+            "id": "a32",
+            "key": "1부",
+            "value": "마지막 작가를 부른 대표"
+          },
+          {
+            "id": "a33",
+            "key": "2부",
+            "value": "남편과의 약속을 놓아주고 열쇠를 돌려준다"
+          }
+        ],
+        "dates": [
+          {
+            "id": "d34",
+            "label": "소극장 비상구 개관",
+            "date": {
+              "year": 1990,
+              "month": 4,
+              "day": 7
+            }
+          },
+          {
+            "id": "d35",
+            "label": "남편 하봉수 별세",
+            "date": {
+              "year": 2014,
+              "month": 3,
+              "day": null
+            }
+          },
+          {
+            "id": "d36",
+            "label": "열쇠 반납",
+            "date": {
+              "year": 2026,
+              "month": 2,
+              "day": 28
+            }
+          }
+        ]
+      },
+      {
+        "id": "c-gitae",
+        "kind": "character",
+        "name": "도기태",
+        "folderId": "f-c-troupe",
+        "description": "비상구 20년 단원. 너스레와 아재 개그의 분위기 메이커. 이혼 뒤 군대 간 아들의 생활비를 대느라 밤마다 대리운전을 한다. 머리 위에 굳은 지문이 뜬 적이 없다.",
+        "attributes": [
+          {
+            "id": "a37",
+            "key": "나이",
+            "value": "52"
+          },
+          {
+            "id": "a38",
+            "key": "외모",
+            "value": "큰 덩치, 벗어진 이마, 갈색 가죽 재킷, 피로회복제"
+          },
+          {
+            "id": "a39",
+            "key": "말투",
+            "value": "반말 너스레. 무진은 \"작가 선생\". 말끝 \"응?\""
+          },
+          {
+            "id": "a40",
+            "key": "입버릇",
+            "value": "인생은 생방이야. 엔지가 없어."
+          },
+          {
+            "id": "a41",
+            "key": "비밀",
+            "value": "대리운전(형광 연두색 조끼)"
+          },
+          {
+            "id": "a42",
+            "key": "배역",
+            "value": "아버지(택시 기사)"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-jinhyuk",
+        "kind": "character",
+        "name": "유진혁",
+        "folderId": "f-c-troupe",
+        "description": "아이돌 연습생 7년 끝에 데뷔가 무산되고 연기로 넘어온 신인. 겉은 건방지고 속은 조급하다. 분식집을 하는 엄마의 전화를 피한다. 드라마 계약과 무대 사이에서 흔들린다.",
+        "attributes": [
+          {
+            "id": "a43",
+            "key": "나이",
+            "value": "25"
+          },
+          {
+            "id": "a44",
+            "key": "외모",
+            "value": "182센티미터, 선글라스와 버킷햇, 운동복"
+          },
+          {
+            "id": "a45",
+            "key": "말투",
+            "value": "건조한 존댓말에 비꼬기. 2부엔 진지하게. 42화부터 무진을 \"형\""
+          },
+          {
+            "id": "a46",
+            "key": "굳은 지문",
+            "value": "(계약서에 서명한다.) — 드라마 「밤의 수사반」 형사 2"
+          },
+          {
+            "id": "a47",
+            "key": "배역",
+            "value": "청년(편의점 알바생)"
+          },
+          {
+            "id": "a48",
+            "key": "1부",
+            "value": "남의 인생 훔쳐 쓰는 작가에게 화내는 배우"
+          },
+          {
+            "id": "a49",
+            "key": "2부",
+            "value": "촬영장을 빠져나와 무대로 돌아온다"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-somi",
+        "kind": "character",
+        "name": "방소미",
+        "folderId": "f-c-troupe",
+        "description": "연극영화과를 갓 졸업한 신인. 3년 전 「유리 계단」을 사흘 내리 본 관객이자 해원의 팬. 시끄럽고 밝고, 의외로 용감하다.",
+        "attributes": [
+          {
+            "id": "a50",
+            "key": "나이",
+            "value": "23"
+          },
+          {
+            "id": "a51",
+            "key": "외모",
+            "value": "작은 키, 단발 파마, 노란 백팩"
+          },
+          {
+            "id": "a52",
+            "key": "말투",
+            "value": "빠른 존댓말, \"헐\", \"진짜요? 진짜로요?\""
+          },
+          {
+            "id": "a53",
+            "key": "굳은 지문",
+            "value": "(고백한다.) — 진혁에게"
+          },
+          {
+            "id": "a54",
+            "key": "배역",
+            "value": "소녀(가출한 고등학생)"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-sun",
+        "kind": "character",
+        "name": "남궁선",
+        "folderId": "f-c-troupe",
+        "description": "싱글맘 배우. 낮엔 마트 계산원, 밤엔 무대. 딸 다온을 위해 연극을 그만두고 콜센터에 지원하려 한다.",
+        "attributes": [
+          {
+            "id": "a55",
+            "key": "나이",
+            "value": "44"
+          },
+          {
+            "id": "a56",
+            "key": "외모",
+            "value": "큰 키, 질끈 묶은 머리, 지친 눈"
+          },
+          {
+            "id": "a57",
+            "key": "말투",
+            "value": "차분한 존댓말, \"괜찮아요.\""
+          },
+          {
+            "id": "a58",
+            "key": "굳은 지문",
+            "value": "(이력서를 쓴다.) → 39화 (대본을 펼친다.)"
+          },
+          {
+            "id": "a59",
+            "key": "배역",
+            "value": "엄마(새벽 청소 노동자)"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-daon",
+        "kind": "character",
+        "name": "윤다온",
+        "folderId": "f-c-family",
+        "description": "남궁선의 딸, 중학교 2학년. 극작가 지망생이자 독설가. 무진의 대본을 처음 합평한 무서운 독자. 2부 폐관 공연의 자막 오퍼레이터.",
+        "attributes": [
+          {
+            "id": "a60",
+            "key": "나이",
+            "value": "14"
+          },
+          {
+            "id": "a61",
+            "key": "외모",
+            "value": "동그란 안경, 교복 위 엄마의 회색 카디건, 스프링 노트"
+          },
+          {
+            "id": "a62",
+            "key": "말투",
+            "value": "또박또박한 존댓말과 정확한 독설. 무진은 \"아저씨\" → 59화 \"작가님\""
+          },
+          {
+            "id": "a63",
+            "key": "명대사",
+            "value": "소리를 보여 주면 되잖아요."
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-seyoung",
+        "kind": "character",
+        "name": "오세영",
+        "folderId": "f-c-crew",
+        "description": "무대감독. 육군 부사관 출신의 원칙주의자. 무표정으로 농담한다. 2부에서 진동 큐 시스템을 운영한다.",
+        "attributes": [
+          {
+            "id": "a64",
+            "key": "나이",
+            "value": "33"
+          },
+          {
+            "id": "a65",
+            "key": "외모",
+            "value": "짧은 커트, 검은 작업복, 목에 건 인터컴 헤드셋"
+          },
+          {
+            "id": "a66",
+            "key": "말투",
+            "value": "군더더기 없는 존댓말. 큐 콜 \"스탠바이.\" … \"고.\" 하준에게만 반말"
+          },
+          {
+            "id": "a67",
+            "key": "1부",
+            "value": "음향 감독과 앙숙"
+          },
+          {
+            "id": "a68",
+            "key": "2부",
+            "value": "\"멈춰도 되는 무대\"를 만든다"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-yonggu",
+        "kind": "character",
+        "name": "탁용구",
+        "folderId": "f-c-crew",
+        "description": "조명 디자이너이자 크루 업체 반장. 3년 전 캣워크 난간 볼트가 헐거운 걸 알고도 다음 날로 미뤘다. 그 죄책감으로 무진을 3년 동안 데리고 다녔다.",
+        "attributes": [
+          {
+            "id": "a69",
+            "key": "나이",
+            "value": "47"
+          },
+          {
+            "id": "a70",
+            "key": "외모",
+            "value": "다부진 체격, 스포츠머리, 목장갑, 허리의 렌치, 박하사탕"
+          },
+          {
+            "id": "a71",
+            "key": "말투",
+            "value": "단답 반말. \"어.\" \"됐다.\" \"올려.\""
+          },
+          {
+            "id": "a72",
+            "key": "순간 지문 단골",
+            "value": "(시선을 피한다.)"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-hajun",
+        "kind": "character",
+        "name": "은하준",
+        "folderId": "f-c-crew",
+        "description": "음향 디자이너 겸 오퍼레이터. 장비를 직접 만드는 기계 덕후. 농인 누나 덕에 한국수어에 능통하다. 테크 리허설에서 해원이 큐를 놓치는 걸 보고 몰래 스피커를 옮겼다.",
+        "attributes": [
+          {
+            "id": "a73",
+            "key": "나이",
+            "value": "26"
+          },
+          {
+            "id": "a74",
+            "key": "외모",
+            "value": "곱슬머리, 목에 건 큰 헤드폰, 후드티, 케이블타이 팔찌"
+          },
+          {
+            "id": "a75",
+            "key": "말투",
+            "value": "빠른 해요체, 무진은 \"형\""
+          },
+          {
+            "id": "a76",
+            "key": "발명",
+            "value": "바닥 진동 장치(트랜스듀서 여섯 개)"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-garam",
+        "kind": "character",
+        "name": "은가람",
+        "folderId": "f-c-outside",
+        "description": "수어 연극 「극단 손끝」의 농인 배우. 하준의 누나. 청인의 동정에 단호하고, 2부 개작 대본을 감수하며 역무원을 맡는다.",
+        "attributes": [
+          {
+            "id": "a77",
+            "key": "나이",
+            "value": "30"
+          },
+          {
+            "id": "a78",
+            "key": "외모",
+            "value": "높이 묶은 긴 생머리, 또렷한 표정, 빨간 운동화"
+          },
+          {
+            "id": "a79",
+            "key": "언어",
+            "value": "한국수어. 음성으로 말하지 않는다. 필담은 휴대전화 메모장"
+          },
+          {
+            "id": "a80",
+            "key": "배역",
+            "value": "역무원(개작본)"
+          },
+          {
+            "id": "a81",
+            "key": "명대사",
+            "value": "내 방식이 정답이라고 생각하지 마요."
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-seokju",
+        "kind": "character",
+        "name": "강석주",
+        "folderId": "f-c-outside",
+        "description": "연극 평론가. 2000년대 비상구의 드라마투르그였던 하봉수의 제자. 3년 전 「유리 계단」에 「지문만 있고 사람은 없다」를 썼다.",
+        "attributes": [
+          {
+            "id": "a82",
+            "key": "나이",
+            "value": "49"
+          },
+          {
+            "id": "a83",
+            "key": "외모",
+            "value": "마른 체구, 은테 안경, 베이지 트렌치코트, 가죽 수첩"
+          },
+          {
+            "id": "a84",
+            "key": "말투",
+            "value": "문어체 존댓말, 인용"
+          },
+          {
+            "id": "a85",
+            "key": "글",
+            "value": "「지문만 있고 사람은 없다」(2022) · 「비상구의 마지막 지문」(2026) · 「이번에는 사람이 있었다」(2026)"
+          }
+        ],
+        "dates": [
+          {
+            "id": "d86",
+            "label": "「지문만 있고 사람은 없다」 게재",
+            "date": {
+              "year": 2022,
+              "month": 11,
+              "day": 11
+            }
+          },
+          {
+            "id": "d87",
+            "label": "칼럼 「비상구의 마지막 지문」",
+            "date": {
+              "year": 2026,
+              "month": 2,
+              "day": 23
+            }
+          }
+        ]
+      },
+      {
+        "id": "c-seongtae",
+        "kind": "character",
+        "name": "마성태",
+        "folderId": "f-c-outside",
+        "description": "극장이 든 마빌딩의 소유주. 연극을 사랑한 아버지에게서 건물과 상속세를 물려받아 매각을 결정했다. 1991년 「별을 세는 아이」의 아역이었다.",
+        "attributes": [
+          {
+            "id": "a88",
+            "key": "나이",
+            "value": "45"
+          },
+          {
+            "id": "a89",
+            "key": "외모",
+            "value": "회색 정장, 금테 안경, 손목시계"
+          },
+          {
+            "id": "a90",
+            "key": "말투",
+            "value": "하십시오체, 건조하다"
+          },
+          {
+            "id": "a91",
+            "key": "굳은 지문",
+            "value": "(도장을 찍는다.) — 매각 계약"
+          },
+          {
+            "id": "a92",
+            "key": "아버지",
+            "value": "마병철(1940~2024). 1990년부터 지하를 하봉수에게 싸게 내줬다"
+          }
+        ],
+        "dates": [
+          {
+            "id": "d93",
+            "label": "아동극 「별을 세는 아이」 출연",
+            "date": {
+              "year": 1991,
+              "month": 5,
+              "day": 5
+            }
+          },
+          {
+            "id": "d94",
+            "label": "아버지 마병철 별세",
+            "date": {
+              "year": 2024,
+              "month": 6,
+              "day": null
+            }
+          },
+          {
+            "id": "d95",
+            "label": "철거 착공",
+            "date": {
+              "year": 2026,
+              "month": 3,
+              "day": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "c-mugyeong",
+        "kind": "character",
+        "name": "차무경",
+        "folderId": "f-c-family",
+        "description": "무진의 여동생. 의정부 이비인후과 의원 간호사. 오빠를 구박하지만 제일 걱정한다. 해원의 진료와는 아무 관계가 없다.",
+        "attributes": [
+          {
+            "id": "a96",
+            "key": "나이",
+            "value": "25"
+          },
+          {
+            "id": "a97",
+            "key": "외모",
+            "value": "무진과 닮은 눈매, 똑단발, 엄마 반찬통"
+          },
+          {
+            "id": "a98",
+            "key": "말투",
+            "value": "반말, \"오빠\", 빠른 잔소리"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "c-soonae",
+        "kind": "character",
+        "name": "정순애",
+        "folderId": "f-c-family",
+        "description": "해원의 어머니. 통영 중앙시장 근처 「바다충무김밥」 주인. 남편을 바다에서 잃었다. 딸을 데려가려 올라왔다가 객석 맨 앞줄에 앉는다.",
+        "attributes": [
+          {
+            "id": "a99",
+            "key": "나이",
+            "value": "55"
+          },
+          {
+            "id": "a100",
+            "key": "외모",
+            "value": "작고 단단한 체구, 꽃무늬 앞치마, 고무장갑"
+          },
+          {
+            "id": "a101",
+            "key": "말투",
+            "value": "경남 사투리 반말. 무진은 \"총각\" → 54화부터 \"작가 선생\""
+          },
+          {
+            "id": "a102",
+            "key": "기억",
+            "value": "그날 아침 딸은 \"다녀오세요\"를 하지 않았다"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "p-lobby",
+        "kind": "place",
+        "name": "로비",
+        "folderId": "f-pl-theater",
+        "description": "계단 스물두 칸 아래. 매표소, 1990~2025 공연 사진 벽, 하봉수의 액자 『극장은 도시의 비상구다』. 사진 벽 왼쪽 아래에 1991년 「별을 세는 아이」.",
+        "attributes": [
+          {
+            "id": "a103",
+            "key": "위치",
+            "value": "마빌딩 지하 1층"
+          }
+        ],
+        "dates": [
+          {
+            "id": "d104",
+            "label": "개관",
+            "date": {
+              "year": 1990,
+              "month": 4,
+              "day": 7
+            }
+          },
+          {
+            "id": "d105",
+            "label": "철거 착공",
+            "date": {
+              "year": 2026,
+              "month": 3,
+              "day": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "p-house",
+        "kind": "place",
+        "name": "객석",
+        "folderId": "f-pl-theater",
+        "description": "120석, 경사진 계단식, 삐걱거리는 낡은 빨간 의자.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-stage",
+        "kind": "place",
+        "name": "무대",
+        "folderId": "f-pl-theater",
+        "description": "폭 8미터, 깊이 6미터의 나무 단. 하수 안쪽 문 위에 초록 비상구 표시등. 극중극에선 편의점.",
+        "attributes": [
+          {
+            "id": "a106",
+            "key": "상수",
+            "value": "객석에서 보아 오른쪽"
+          },
+          {
+            "id": "a107",
+            "key": "하수",
+            "value": "객석에서 보아 왼쪽"
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "p-booth",
+        "kind": "place",
+        "name": "조명실",
+        "folderId": "f-pl-theater",
+        "description": "객석 맨 뒤 위쪽 유리창 방. 조명 콘솔, 음향 데스크, 무대감독 자리, 2부엔 자막 노트북.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-dressing",
+        "kind": "place",
+        "name": "분장실",
+        "folderId": "f-pl-theater",
+        "description": "무대 뒤 복도 오른쪽. 거울 여섯 개, 나간 전구 몇 개.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-props",
+        "kind": "place",
+        "name": "소품실",
+        "folderId": "f-pl-theater",
+        "description": "로비 계단 아래 창고. 35년 치 소품과 하봉수의 상자.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-catwalk",
+        "kind": "place",
+        "name": "캣워크",
+        "folderId": "f-pl-theater",
+        "description": "무대 위 5미터의 철제 통로. 1990년 하봉수가, 2022년 무진이 떨어진 곳.",
+        "attributes": [],
+        "dates": [
+          {
+            "id": "d108",
+            "label": "하봉수 추락",
+            "date": {
+              "year": 1990,
+              "month": 4,
+              "day": 5
+            }
+          },
+          {
+            "id": "d109",
+            "label": "무진 추락",
+            "date": {
+              "year": 2022,
+              "month": 11,
+              "day": 13
+            }
+          }
+        ]
+      },
+      {
+        "id": "p-understage",
+        "kind": "place",
+        "name": "무대 밑",
+        "folderId": "f-pl-theater",
+        "description": "나무 단 아래 높이 60센티미터의 공간. 무대 뒤 복도의 점검구로 드나든다. 2부에 바닥 진동 장치를 설치한다.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-roof",
+        "kind": "place",
+        "name": "옥상",
+        "folderId": "f-pl-theater",
+        "description": "마빌딩 5층 위. 빨래 건조대, 화분, 권 대표의 접이식 의자. 혜화동 지붕들이 보인다.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-byeolbit",
+        "kind": "place",
+        "name": "별빛아트홀",
+        "folderId": "f-pl-daehakro",
+        "description": "대학로의 300석 중극장. 1화에서 무진이 크루로 일하고, 에필로그에서 재공연이 오르는 곳.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-store",
+        "kind": "place",
+        "name": "편의점 혜화로점",
+        "folderId": "f-pl-daehakro",
+        "description": "혜화역 근처. 무진의 야간 알바(일·화·목). 극중극 편의점의 모델.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-mak",
+        "kind": "place",
+        "name": "막걸리집 「막」",
+        "folderId": "f-pl-daehakro",
+        "description": "대학로 골목의 오래된 술집. 극단 회식 장소.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-marronnier",
+        "kind": "place",
+        "name": "마로니에 공원",
+        "folderId": "f-pl-daehakro",
+        "description": "다온과의 합평, 진혁과 소미의 대답.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-attic",
+        "kind": "place",
+        "name": "무진의 옥탑방",
+        "folderId": "f-pl-daehakro",
+        "description": "명륜동. 책상 하나, 접이식 침대, 창밖의 혜화동 지붕.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-pocha",
+        "kind": "place",
+        "name": "대학로 포장마차",
+        "folderId": "f-pl-daehakro",
+        "description": "강석주와 소주를 마신 곳.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-er",
+        "kind": "place",
+        "name": "대학병원 응급실",
+        "folderId": "f-pl-seoul",
+        "description": "혜화동 근처. 첫공 사고의 밤.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-sonkkeut",
+        "kind": "place",
+        "name": "극단 손끝 연습실",
+        "folderId": "f-pl-seoul",
+        "description": "성수동 지하. 수어 연극 「손의 시간」과 수어 교실.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-paju",
+        "kind": "place",
+        "name": "파주 드라마 세트장",
+        "folderId": "f-pl-seoul",
+        "description": "드라마 「밤의 수사반」 세트와 대기실.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-office",
+        "kind": "place",
+        "name": "마성태의 사무실",
+        "folderId": "f-pl-seoul",
+        "description": "역삼동 빌딩 12층 회의실.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-terminal",
+        "kind": "place",
+        "name": "서울남부터미널",
+        "folderId": "f-pl-seoul",
+        "description": "통영행 고속버스 승강장.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-riverside",
+        "kind": "place",
+        "name": "밤의 강변북로",
+        "folderId": "f-pl-seoul",
+        "description": "대리운전 손님 차 안에서 본 새벽의 강.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-gukbap",
+        "kind": "place",
+        "name": "의정부 국밥집",
+        "folderId": "f-pl-seoul",
+        "description": "무경에게 메니에르병 이야기를 들은 곳.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-gimbap",
+        "kind": "place",
+        "name": "바다충무김밥",
+        "folderId": "f-pl-tongyeong",
+        "description": "중앙시장 근처, 강구안이 보이는 정순애의 가게.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-gangguan",
+        "kind": "place",
+        "name": "강구안",
+        "folderId": "f-pl-tongyeong",
+        "description": "통영의 항구. 어선들.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "p-dongpirang",
+        "kind": "place",
+        "name": "동피랑",
+        "folderId": "f-pl-tongyeong",
+        "description": "벽화 마을 언덕. 바다가 내려다보인다. 무진이 처음으로 지문을 털어놓은 곳.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "i-exitsign",
+        "kind": "item",
+        "name": "비상구 표시등",
+        "folderId": "f-items",
+        "description": "1990년부터 무대 하수 안쪽 문 위에 달린 초록 표시등. 하얀 사람이 문을 향해 달린다. 플러그를 뽑는 순간 지문이 사라진다.",
+        "attributes": [
+          {
+            "id": "a110",
+            "key": "복선",
+            "value": "암전이 되면 극장에서 제일 밝은 건 비상구 표시등이다."
+          }
+        ],
+        "dates": [
+          {
+            "id": "d111",
+            "label": "설치",
+            "date": {
+              "year": 1990,
+              "month": 4,
+              "day": 7
+            }
+          },
+          {
+            "id": "d112",
+            "label": "꺼진 밤",
+            "date": {
+              "year": 2026,
+              "month": 3,
+              "day": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-keys",
+        "kind": "item",
+        "name": "극장 열쇠 꾸러미",
+        "folderId": "f-items",
+        "description": "열쇠 일곱 개와 빨간 털실 고리. 커튼콜에서 권 대표가 마성태에게 돌려준다.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "i-notebooks",
+        "kind": "item",
+        "name": "하봉수의 지문 노트",
+        "folderId": "f-items",
+        "description": "1990~2013년 스프링 노트 스물네 권. 소품실 상자 『하봉수 — 열지 말 것』.",
+        "attributes": [],
+        "dates": [
+          {
+            "id": "d113",
+            "label": "첫 쪽",
+            "date": {
+              "year": 1990,
+              "month": 4,
+              "day": 7
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-lastnote",
+        "kind": "item",
+        "name": "하봉수의 마지막 노트",
+        "folderId": "f-items",
+        "description": "2014년. 마지막 쪽 『자기 지문은 거울에 비치지 않는다. 남이 읽어 줘야 한다. 오늘 명자가 내 것을 읽어 주었다. (여기 있는다.)』",
+        "attributes": [],
+        "dates": [
+          {
+            "id": "d114",
+            "label": "마지막 쪽",
+            "date": {
+              "year": 2014,
+              "month": 3,
+              "day": null
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-script",
+        "kind": "item",
+        "name": "「막차와 첫차 사이」 대본",
+        "folderId": "f-items",
+        "description": "초고(5화) → 리딩 파동 수정본(15화) → 수어·자막 개작본(40화). 결말은 끝까지 「안녕히 계세요」.",
+        "attributes": [
+          {
+            "id": "a115",
+            "key": "고정대사",
+            "value": "첫차는 몇 시예요? / 다섯 시 삼십이 분이요."
+          }
+        ],
+        "dates": []
+      },
+      {
+        "id": "i-note",
+        "kind": "item",
+        "name": "해원의 쪽지",
+        "folderId": "f-items",
+        "description": "병실에 두고 간 쪽지 『제대로 된 막공, 언젠가 해요.』 무진의 지갑 속.",
+        "attributes": [],
+        "dates": [
+          {
+            "id": "d116",
+            "label": "병실",
+            "date": {
+              "year": 2022,
+              "month": 11,
+              "day": 15
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-pills",
+        "kind": "item",
+        "name": "해원의 약통",
+        "folderId": "f-items",
+        "description": "이름표 없는 흰 플라스틱 통, 흰 알약.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "i-contract",
+        "kind": "item",
+        "name": "진혁의 드라마 계약서",
+        "folderId": "f-items",
+        "description": "「밤의 수사반」 형사 2, 1~3월 촬영.",
+        "attributes": [],
+        "dates": [
+          {
+            "id": "d117",
+            "label": "서명",
+            "date": {
+              "year": 2025,
+              "month": 11,
+              "day": 17
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-resume",
+        "kind": "item",
+        "name": "남궁선의 이력서",
+        "folderId": "f-items",
+        "description": "콜센터 지원용. 다온에게 들킨다.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "i-daonnote",
+        "kind": "item",
+        "name": "다온의 합평 노트",
+        "folderId": "f-items",
+        "description": "표지에 「합평」. 『사람은 지문 말고 이유로 움직여요.』",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "i-photo",
+        "kind": "item",
+        "name": "「별을 세는 아이」 사진",
+        "folderId": "f-items",
+        "description": "1991년 로비 사진 벽의 단체 사진. 종이 별 하나의 끝이 짧다.",
+        "attributes": [],
+        "dates": [
+          {
+            "id": "d118",
+            "label": "공연",
+            "date": {
+              "year": 1991,
+              "month": 5,
+              "day": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-review",
+        "kind": "item",
+        "name": "평론 「지문만 있고 사람은 없다」",
+        "folderId": "f-items",
+        "description": "무진이 출력해 접어 둔 강석주의 평론.",
+        "attributes": [],
+        "dates": [
+          {
+            "id": "d119",
+            "label": "게재",
+            "date": {
+              "year": 2022,
+              "month": 11,
+              "day": 11
+            }
+          }
+        ]
+      },
+      {
+        "id": "i-shaker",
+        "kind": "item",
+        "name": "바닥 진동 장치",
+        "folderId": "f-items",
+        "description": "하준이 만든 트랜스듀서 여섯 개와 앰프. 폐관 공연 4장 직전 퓨즈가 나간다.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "i-vest",
+        "kind": "item",
+        "name": "기태의 대리운전 조끼",
+        "folderId": "f-items",
+        "description": "형광 연두색. 편의점에서 가방에 쑤셔 넣는다.",
+        "attributes": [],
+        "dates": []
+      },
+      {
+        "id": "e-b1",
+        "kind": "event",
+        "name": "첫공 사고",
+        "folderId": "f-p1",
+        "description": "고별 공연 「막차와 첫차 사이」 첫공 마지막 장면, 첫차 소리 큐에서 해원이 메니에르병 발작으로 비상구 문 앞에 쓰러진다. 공연 중단. 응급실에서 해원이 병과 은퇴 결심을 밝힌다.",
+        "attributes": [
+          {
+            "id": "a120",
+            "key": "규모",
+            "value": "대"
+          },
+          {
+            "id": "a121",
+            "key": "화",
+            "value": "26~29화"
+          },
+          {
+            "id": "a122",
+            "key": "결과",
+            "value": "남은 공연 취소, 해원 귀향. 지문 (퇴장한다.)는 그대로"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 5
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-haewon",
+          "c-mujin",
+          "c-myeongja",
+          "c-jinhyuk",
+          "c-gitae",
+          "c-somi",
+          "c-sun",
+          "c-seyoung",
+          "c-yonggu",
+          "c-hajun",
+          "c-daon",
+          "c-seokju",
+          "c-mugyeong"
+        ],
+        "placeIds": [
+          "p-lobby",
+          "p-booth",
+          "p-stage",
+          "p-er"
+        ]
+      },
+      {
+        "id": "e-b2",
+        "kind": "event",
+        "name": "폐관 공연",
+        "folderId": "f-p2",
+        "description": "폐관하는 날 단 한 번의 공연. 수어·음성·자막·진동판 「막차와 첫차 사이」. 진동 장치가 고장 나자 무진이 무대 밑에서 손으로 열차의 리듬을 두드린다. 해원이 \"다녀오겠습니다\"라고 말하며 문을 나서고, 지문이 (등장한다.)로 바뀐다.",
+        "attributes": [
+          {
+            "id": "a123",
+            "key": "규모",
+            "value": "대"
+          },
+          {
+            "id": "a124",
+            "key": "화",
+            "value": "56~59화"
+          },
+          {
+            "id": "a125",
+            "key": "결과",
+            "value": "커튼콜, 열쇠 반납, 비상구 표시등이 꺼지고 지문이 사라진다"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 28
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-haewon",
+          "c-mujin",
+          "c-myeongja",
+          "c-gitae",
+          "c-jinhyuk",
+          "c-somi",
+          "c-sun",
+          "c-daon",
+          "c-seyoung",
+          "c-yonggu",
+          "c-hajun",
+          "c-garam",
+          "c-seokju",
+          "c-seongtae",
+          "c-mugyeong",
+          "c-soonae"
+        ],
+        "placeIds": [
+          "p-lobby",
+          "p-booth",
+          "p-understage",
+          "p-stage",
+          "p-house"
+        ]
+      },
+      {
+        "id": "e-m1",
+        "kind": "event",
+        "name": "폐관 발표와 고별 공연 의뢰",
+        "folderId": "f-ch1",
+        "description": "권 대표가 2026년 2월 28일 폐관을 알리고 무진에게 마지막 공연을 쓰라고 한다. 주연은 서해원.",
+        "attributes": [
+          {
+            "id": "a126",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a127",
+            "key": "화",
+            "value": "2~3화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 9,
+          "day": 6
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-myeongja",
+          "c-mujin",
+          "c-haewon"
+        ],
+        "placeIds": [
+          "p-lobby",
+          "p-house",
+          "p-stage"
+        ]
+      },
+      {
+        "id": "e-m2",
+        "kind": "event",
+        "name": "고별 공연 오디션",
+        "folderId": "f-ch2",
+        "description": "「막차와 첫차 사이」 오디션. 진혁, 소미, 선이 캐스팅되고 다온이 첫 합평을 한다.",
+        "attributes": [
+          {
+            "id": "a128",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a129",
+            "key": "화",
+            "value": "6~8화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 9,
+          "day": 20
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-myeongja",
+          "c-mujin",
+          "c-haewon",
+          "c-gitae",
+          "c-jinhyuk",
+          "c-somi",
+          "c-sun",
+          "c-daon",
+          "c-seyoung"
+        ],
+        "placeIds": [
+          "p-lobby",
+          "p-house",
+          "p-stage"
+        ]
+      },
+      {
+        "id": "e-m3",
+        "kind": "event",
+        "name": "두 번째 리딩 파동",
+        "folderId": "f-ch3",
+        "description": "배우들의 지문을 훔쳐 쓴 수정본 리딩에서 진혁의 전화, 기태의 대리, 선의 이력서가 드러나며 연습이 무너진다. 「보이는 걸 쓰지 말고, 보이지 않는 걸 써라.」",
+        "attributes": [
+          {
+            "id": "a130",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a131",
+            "key": "화",
+            "value": "13화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 10,
+          "day": 16
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-mujin",
+          "c-jinhyuk",
+          "c-gitae",
+          "c-sun",
+          "c-somi",
+          "c-haewon",
+          "c-myeongja"
+        ],
+        "placeIds": [
+          "p-stage"
+        ]
+      },
+      {
+        "id": "e-m4",
+        "kind": "event",
+        "name": "창립자의 노트",
+        "folderId": "f-ch4",
+        "description": "소품실에서 하봉수의 지문 노트가 쏟아지고, 권 대표가 남편도 지문을 봤다는 사실을 확인해 준다.",
+        "attributes": [
+          {
+            "id": "a132",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a133",
+            "key": "화",
+            "value": "17~18화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 11,
+          "day": 1
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-mujin",
+          "c-myeongja",
+          "c-somi",
+          "c-hajun"
+        ],
+        "placeIds": [
+          "p-props",
+          "p-house"
+        ]
+      },
+      {
+        "id": "e-m5",
+        "kind": "event",
+        "name": "테크 리허설",
+        "folderId": "f-ch5",
+        "description": "큐 투 큐. 해원이 첫차 소리 큐를 놓치고, 하준이 몰래 스피커를 하수 쪽으로 옮긴다.",
+        "attributes": [
+          {
+            "id": "a134",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a135",
+            "key": "화",
+            "value": "23화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 1
+        },
+        "endDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 2
+        },
+        "characterIds": [
+          "c-seyoung",
+          "c-hajun",
+          "c-yonggu",
+          "c-mujin",
+          "c-haewon",
+          "c-jinhyuk",
+          "c-myeongja"
+        ],
+        "placeIds": [
+          "p-booth",
+          "p-stage"
+        ]
+      },
+      {
+        "id": "e-m6",
+        "kind": "event",
+        "name": "공연 중단",
+        "folderId": "f-ch6",
+        "description": "권 대표가 남은 공연을 모두 취소한다. 진혁은 드라마로, 해원은 통영으로 간다. 지문은 아직 (퇴장한다.)",
+        "attributes": [
+          {
+            "id": "a136",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a137",
+            "key": "화",
+            "value": "30화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 6
+        },
+        "endDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 7
+        },
+        "characterIds": [
+          "c-myeongja",
+          "c-mujin",
+          "c-gitae",
+          "c-jinhyuk",
+          "c-somi",
+          "c-sun",
+          "c-seyoung",
+          "c-hajun",
+          "c-yonggu",
+          "c-haewon"
+        ],
+        "placeIds": [
+          "p-lobby",
+          "p-terminal"
+        ]
+      },
+      {
+        "id": "e-m7",
+        "kind": "event",
+        "name": "통영행",
+        "folderId": "f-ch7",
+        "description": "무진이 통영으로 해원을 찾아가 처음으로 지문을 털어놓는다. 「그럼 그거, 고치지 마세요. 제 거니까.」",
+        "attributes": [
+          {
+            "id": "a138",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a139",
+            "key": "화",
+            "value": "34~35화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 20
+        },
+        "endDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 21
+        },
+        "characterIds": [
+          "c-mujin",
+          "c-haewon",
+          "c-soonae"
+        ],
+        "placeIds": [
+          "p-terminal",
+          "p-gimbap",
+          "p-gangguan",
+          "p-dongpirang"
+        ]
+      },
+      {
+        "id": "e-m8",
+        "kind": "event",
+        "name": "대본 개작",
+        "folderId": "f-ch8",
+        "description": "수어 연극을 보고, 수어를 배우고, 다온의 한마디로 「소리를 보여 주는」 개작본을 쓴다. 결말은 고치지 않는다.",
+        "attributes": [
+          {
+            "id": "a140",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a141",
+            "key": "화",
+            "value": "36~40화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 27
+        },
+        "endDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 10
+        },
+        "characterIds": [
+          "c-mujin",
+          "c-garam",
+          "c-hajun",
+          "c-daon",
+          "c-seyoung",
+          "c-myeongja",
+          "c-gitae",
+          "c-sun",
+          "c-somi",
+          "c-yonggu"
+        ],
+        "placeIds": [
+          "p-sonkkeut",
+          "p-stage",
+          "p-attic"
+        ]
+      },
+      {
+        "id": "e-m9",
+        "kind": "event",
+        "name": "극단 재집결",
+        "folderId": "f-ch9",
+        "description": "설득 큐시트. 권 대표, 진혁, 오 감독과 하준, 탁 반장, 강석주, 그리고 해원.",
+        "attributes": [
+          {
+            "id": "a142",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a143",
+            "key": "화",
+            "value": "41~45화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 12
+        },
+        "endDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 24
+        },
+        "characterIds": [
+          "c-mujin",
+          "c-myeongja",
+          "c-jinhyuk",
+          "c-seyoung",
+          "c-hajun",
+          "c-yonggu",
+          "c-seokju",
+          "c-haewon",
+          "c-gitae",
+          "c-somi",
+          "c-daon"
+        ],
+        "placeIds": [
+          "p-house",
+          "p-paju",
+          "p-booth",
+          "p-pocha",
+          "p-stage"
+        ]
+      },
+      {
+        "id": "e-m10",
+        "kind": "event",
+        "name": "바닥 큐",
+        "folderId": "f-ch10",
+        "description": "무대 밑에 진동 장치를 깔고, 맨발의 해원이 다가오는 첫차를 바닥으로 느낀다. 발작과 「멈춰도 되는 무대」.",
+        "attributes": [
+          {
+            "id": "a144",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a145",
+            "key": "화",
+            "value": "46~48화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 31
+        },
+        "endDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 14
+        },
+        "characterIds": [
+          "c-mujin",
+          "c-hajun",
+          "c-seyoung",
+          "c-yonggu",
+          "c-haewon",
+          "c-garam"
+        ],
+        "placeIds": [
+          "p-understage",
+          "p-stage"
+        ]
+      },
+      {
+        "id": "e-m11",
+        "kind": "event",
+        "name": "철거 연기",
+        "folderId": "f-ch11",
+        "description": "철거 준비가 27일로 당겨질 위기. 「별을 세는 아이」 사진과 강석주의 칼럼, 대학로의 연대로 28일 밤 열두 시까지 극장을 지킨다.",
+        "attributes": [
+          {
+            "id": "a146",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a147",
+            "key": "화",
+            "value": "51~53화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 19
+        },
+        "endDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 23
+        },
+        "characterIds": [
+          "c-seongtae",
+          "c-myeongja",
+          "c-mujin",
+          "c-seokju",
+          "c-seyoung",
+          "c-hajun"
+        ],
+        "placeIds": [
+          "p-lobby",
+          "p-office"
+        ]
+      },
+      {
+        "id": "e-m12",
+        "kind": "event",
+        "name": "열쇠 반납",
+        "folderId": "f-ch12",
+        "description": "커튼콜 무대 위에서 권 대표가 마성태에게 열쇠를 돌려준다. 굳은 지문 (열쇠를 돌려준다.)가 실행된다.",
+        "attributes": [
+          {
+            "id": "a148",
+            "key": "규모",
+            "value": "중"
+          },
+          {
+            "id": "a149",
+            "key": "화",
+            "value": "59화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 28
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-myeongja",
+          "c-seongtae",
+          "c-mujin",
+          "c-haewon",
+          "c-yonggu"
+        ],
+        "placeIds": [
+          "p-stage"
+        ]
+      },
+      {
+        "id": "e-s01",
+        "kind": "event",
+        "name": "암전 속 계단",
+        "folderId": "f-ch1",
+        "description": "암전 몇 초 사이, 무진이 헐거운 디딤판을 아래에서 붙잡아 배우를 지킨다.",
+        "attributes": [
+          {
+            "id": "a150",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a151",
+            "key": "화",
+            "value": "1화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 9,
+          "day": 5
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-mujin",
+          "c-yonggu",
+          "c-seyoung"
+        ],
+        "placeIds": [
+          "p-byeolbit"
+        ]
+      },
+      {
+        "id": "e-s02",
+        "kind": "event",
+        "name": "새벽 편의점의 대리기사",
+        "folderId": "f-ch1",
+        "description": "새벽 세 시, 대리운전 조끼를 입은 기태와 반찬통을 든 무경이 같은 편의점에 들른다.",
+        "attributes": [
+          {
+            "id": "a152",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a153",
+            "key": "화",
+            "value": "4화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 9,
+          "day": 8
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-mujin",
+          "c-gitae",
+          "c-mugyeong"
+        ],
+        "placeIds": [
+          "p-store"
+        ]
+      },
+      {
+        "id": "e-s03",
+        "kind": "event",
+        "name": "세 번 본 관객",
+        "folderId": "f-ch2",
+        "description": "소미가 「유리 계단」을 사흘 내리 본 관객이었음을 밝힌다.",
+        "attributes": [
+          {
+            "id": "a154",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a155",
+            "key": "화",
+            "value": "7화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 9,
+          "day": 20
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-somi",
+          "c-haewon",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-stage",
+          "p-lobby"
+        ]
+      },
+      {
+        "id": "e-s04",
+        "kind": "event",
+        "name": "무대감독과 음향감독",
+        "folderId": "f-ch2",
+        "description": "첫차 소리 크기를 두고 오 감독과 하준이 처음 맞붙는다.",
+        "attributes": [
+          {
+            "id": "a156",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a157",
+            "key": "화",
+            "value": "9화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 9,
+          "day": 24
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-seyoung",
+          "c-hajun",
+          "c-mujin",
+          "c-yonggu"
+        ],
+        "placeIds": [
+          "p-booth"
+        ]
+      },
+      {
+        "id": "e-s05",
+        "kind": "event",
+        "name": "마로니에 합평",
+        "folderId": "f-ch3",
+        "description": "다온의 빨간 펜 합평. 『사람은 지문 말고 이유로 움직여요.』",
+        "attributes": [
+          {
+            "id": "a158",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a159",
+            "key": "화",
+            "value": "14화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 10,
+          "day": 18
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-daon",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-marronnier"
+        ]
+      },
+      {
+        "id": "e-s06",
+        "kind": "event",
+        "name": "옥상의 삼 년 전",
+        "folderId": "f-ch3",
+        "description": "해원과 무진이 3년 전 막을 내린 날을 처음으로 이야기한다.",
+        "attributes": [
+          {
+            "id": "a160",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a161",
+            "key": "화",
+            "value": "15화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 10,
+          "day": 22
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-haewon",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-roof"
+        ]
+      },
+      {
+        "id": "e-s07",
+        "kind": "event",
+        "name": "소품실 대청소",
+        "folderId": "f-ch4",
+        "description": "35년 치 소품 사이에서 『하봉수 — 열지 말 것』 상자가 터진다.",
+        "attributes": [
+          {
+            "id": "a162",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a163",
+            "key": "화",
+            "value": "17화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 11,
+          "day": 1
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-somi",
+          "c-hajun",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-props"
+        ]
+      },
+      {
+        "id": "e-s08",
+        "kind": "event",
+        "name": "캣워크의 고백",
+        "folderId": "f-ch4",
+        "description": "3년 만에 캣워크에 오른 무진에게 탁 반장이 볼트 이야기를 털어놓는다.",
+        "attributes": [
+          {
+            "id": "a164",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a165",
+            "key": "화",
+            "value": "19화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 11,
+          "day": 4
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-yonggu",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-catwalk"
+        ]
+      },
+      {
+        "id": "e-s09",
+        "kind": "event",
+        "name": "계약서",
+        "folderId": "f-ch5",
+        "description": "진혁의 머리 위에 (계약서에 서명한다.)가 뜬다. \"제 인생 막은 제가 고를게요.\"",
+        "attributes": [
+          {
+            "id": "a166",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a167",
+            "key": "화",
+            "value": "21화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 11,
+          "day": 17
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-jinhyuk",
+          "c-mujin",
+          "c-somi"
+        ],
+        "placeIds": [
+          "p-dressing"
+        ]
+      },
+      {
+        "id": "e-s10",
+        "kind": "event",
+        "name": "소미의 고백",
+        "folderId": "f-ch5",
+        "description": "무진의 오해 끝에 소미가 옥상에서 진혁에게 고백한다.",
+        "attributes": [
+          {
+            "id": "a168",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a169",
+            "key": "화",
+            "value": "22화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 11,
+          "day": 19
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-somi",
+          "c-jinhyuk",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-roof"
+        ]
+      },
+      {
+        "id": "e-s11",
+        "kind": "event",
+        "name": "평론가의 객석",
+        "folderId": "f-ch6",
+        "description": "첫공 로비에서 3년 만에 강석주와 마주친다.",
+        "attributes": [
+          {
+            "id": "a170",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a171",
+            "key": "화",
+            "value": "26화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 5
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-seokju",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-lobby"
+        ]
+      },
+      {
+        "id": "e-s12",
+        "kind": "event",
+        "name": "응급실의 남매",
+        "folderId": "f-ch6",
+        "description": "응급실에서 무경이 무진을 진정시키고, 해원이 병을 밝힌다.",
+        "attributes": [
+          {
+            "id": "a172",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a173",
+            "key": "화",
+            "value": "29화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 5
+        },
+        "endDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 6
+        },
+        "characterIds": [
+          "c-mugyeong",
+          "c-mujin",
+          "c-haewon",
+          "c-myeongja",
+          "c-gitae"
+        ],
+        "placeIds": [
+          "p-er"
+        ]
+      },
+      {
+        "id": "e-s13",
+        "kind": "event",
+        "name": "대리운전의 밤",
+        "folderId": "f-ch7",
+        "description": "기태의 대리운전 밤. 「작가 선생, 니가 막을 수 있는 건 막뿐이야.」",
+        "attributes": [
+          {
+            "id": "a174",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a175",
+            "key": "화",
+            "value": "33화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 13
+        },
+        "endDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 14
+        },
+        "characterIds": [
+          "c-gitae",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-riverside"
+        ]
+      },
+      {
+        "id": "e-s14",
+        "kind": "event",
+        "name": "바다충무김밥",
+        "folderId": "f-ch7",
+        "description": "정순애가 적대하면서도 김밥을 내주고, 해원이 다녀오겠습니다를 하지 않는 이유를 들려준다.",
+        "attributes": [
+          {
+            "id": "a176",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a177",
+            "key": "화",
+            "value": "34화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 20
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-soonae",
+          "c-mujin",
+          "c-haewon"
+        ],
+        "placeIds": [
+          "p-gimbap"
+        ]
+      },
+      {
+        "id": "e-s15",
+        "kind": "event",
+        "name": "수어 교실",
+        "folderId": "f-ch8",
+        "description": "가람에게 수어를 배운다. <첫차>.",
+        "attributes": [
+          {
+            "id": "a178",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a179",
+            "key": "화",
+            "value": "37화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 29
+        },
+        "endDate": {
+          "year": 2025,
+          "month": 12,
+          "day": 30
+        },
+        "characterIds": [
+          "c-garam",
+          "c-hajun",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-sonkkeut"
+        ]
+      },
+      {
+        "id": "e-s16",
+        "kind": "event",
+        "name": "남궁선의 이력서",
+        "folderId": "f-ch8",
+        "description": "이력서를 본 다온과 선이 로비에서 부딪친다. 굳은 지문이 (대본을 펼친다.)로 바뀐다.",
+        "attributes": [
+          {
+            "id": "a180",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a181",
+            "key": "화",
+            "value": "39화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 6
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-sun",
+          "c-daon",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-lobby"
+        ]
+      },
+      {
+        "id": "e-s17",
+        "kind": "event",
+        "name": "세트장의 대기실",
+        "folderId": "f-ch9",
+        "description": "열네 시간 대기하는 진혁과 컵라면. \"백이십 명은 끝까지 봐.\"",
+        "attributes": [
+          {
+            "id": "a182",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a183",
+            "key": "화",
+            "value": "42화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 15
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-jinhyuk",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-paju"
+        ]
+      },
+      {
+        "id": "e-s18",
+        "kind": "event",
+        "name": "평론가와 소주",
+        "folderId": "f-ch9",
+        "description": "강석주가 하봉수의 제자였음을 밝히고 칼럼을 약속한다.",
+        "attributes": [
+          {
+            "id": "a184",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a185",
+            "key": "화",
+            "value": "44화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 1,
+          "day": 20
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-seokju",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-pocha"
+        ]
+      },
+      {
+        "id": "e-s19",
+        "kind": "event",
+        "name": "대답",
+        "folderId": "f-ch10",
+        "description": "석 달 만에 진혁이 소미의 고백에 자기 말로 대답한다.",
+        "attributes": [
+          {
+            "id": "a186",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a187",
+            "key": "화",
+            "value": "49화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 10
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-jinhyuk",
+          "c-somi",
+          "c-mujin",
+          "c-seyoung",
+          "c-gitae"
+        ],
+        "placeIds": [
+          "p-marronnier",
+          "p-stage"
+        ]
+      },
+      {
+        "id": "e-s20",
+        "kind": "event",
+        "name": "옥상의 열쇠",
+        "folderId": "f-ch10",
+        "description": "권 대표가 하봉수의 마지막 노트를 건네고 처음으로 \"무진아\" 부른다.",
+        "attributes": [
+          {
+            "id": "a188",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a189",
+            "key": "화",
+            "value": "50화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 14
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-myeongja",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-roof"
+        ]
+      },
+      {
+        "id": "e-s21",
+        "kind": "event",
+        "name": "로비의 사진",
+        "folderId": "f-ch11",
+        "description": "로비 벽에서 뗀 1991년 사진 앞에서 마성태가 전화를 건다.",
+        "attributes": [
+          {
+            "id": "a190",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a191",
+            "key": "화",
+            "value": "51~52화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 20
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-seongtae",
+          "c-mujin",
+          "c-myeongja"
+        ],
+        "placeIds": [
+          "p-lobby",
+          "p-office"
+        ]
+      },
+      {
+        "id": "e-s22",
+        "kind": "event",
+        "name": "어머니의 객석",
+        "folderId": "f-ch11",
+        "description": "딸을 데려가려 올라온 정순애가 맨발로 첫차를 느끼는 딸을 본다.",
+        "attributes": [
+          {
+            "id": "a192",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a193",
+            "key": "화",
+            "value": "54화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 25
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-soonae",
+          "c-haewon",
+          "c-mujin",
+          "c-myeongja"
+        ],
+        "placeIds": [
+          "p-lobby",
+          "p-house"
+        ]
+      },
+      {
+        "id": "e-s23",
+        "kind": "event",
+        "name": "촬영장 탈출",
+        "folderId": "f-ch12",
+        "description": "마지막 컷을 한 번에 끝낸 진혁을 기태가 태우고 자유로를 달린다.",
+        "attributes": [
+          {
+            "id": "a194",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a195",
+            "key": "화",
+            "value": "56화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 28
+        },
+        "endDate": {
+          "year": null,
+          "month": null,
+          "day": null
+        },
+        "characterIds": [
+          "c-jinhyuk",
+          "c-gitae",
+          "c-somi",
+          "c-mujin"
+        ],
+        "placeIds": [
+          "p-paju",
+          "p-lobby"
+        ]
+      },
+      {
+        "id": "e-s24",
+        "kind": "event",
+        "name": "거울에 비치지 않는 지문",
+        "folderId": "f-ch12",
+        "description": "텅 빈 극장에서 해원이 무진의 지문을 읽어 준다. (쓴다.) 그리고 비상구 표시등이 꺼진다.",
+        "attributes": [
+          {
+            "id": "a196",
+            "key": "규모",
+            "value": "소"
+          },
+          {
+            "id": "a197",
+            "key": "화",
+            "value": "59화"
+          }
+        ],
+        "dates": [],
+        "startDate": {
+          "year": 2026,
+          "month": 2,
+          "day": 28
+        },
+        "endDate": {
+          "year": 2026,
+          "month": 3,
+          "day": 1
+        },
+        "characterIds": [
+          "c-haewon",
+          "c-mujin",
+          "c-myeongja",
+          "c-daon",
+          "c-yonggu"
+        ],
+        "placeIds": [
+          "p-stage"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": "r1",
+        "source": "c-mujin",
+        "target": "c-haewon",
+        "label": "1부 · 막공을 빼앗은 작가",
+        "description": "3년 전 자기 고집으로 「유리 계단」을 사흘 만에 내렸다"
+      },
+      {
+        "id": "r2",
+        "source": "c-mujin",
+        "target": "c-haewon",
+        "label": "1부 · 작가와 주연",
+        "description": "머리 위의 (퇴장한다.)가 무슨 뜻인지 알고 싶다"
+      },
+      {
+        "id": "r3",
+        "source": "c-mujin",
+        "target": "c-haewon",
+        "label": "2부 · 지문을 털어놓은 사람",
+        "description": "35화 동피랑"
+      },
+      {
+        "id": "r4",
+        "source": "c-mujin",
+        "target": "c-haewon",
+        "label": "2부 · 퇴장을 지켜 주는 사람",
+        "description": "퇴장을 고치지 않고 무대를 고친다"
+      },
+      {
+        "id": "r5",
+        "source": "c-haewon",
+        "target": "c-mujin",
+        "label": "1부 · 차 작가님",
+        "description": "정중한 원망. 「작가님은 사람을 안 봐요. 지문만 봐요.」"
+      },
+      {
+        "id": "r6",
+        "source": "c-haewon",
+        "target": "c-mujin",
+        "label": "1부 · 다시 손잡은 작가",
+        "description": "이번엔 막공까지 가자는 약속"
+      },
+      {
+        "id": "r7",
+        "source": "c-haewon",
+        "target": "c-mujin",
+        "label": "2부 · 무진 씨",
+        "description": "35화부터"
+      },
+      {
+        "id": "r8",
+        "source": "c-haewon",
+        "target": "c-mujin",
+        "label": "2부 · 지문을 읽어 주는 사람",
+        "description": "59화 (쓴다.)"
+      },
+      {
+        "id": "r9",
+        "source": "c-myeongja",
+        "target": "c-mujin",
+        "label": "1부 · 작가 양반",
+        "description": "남편과 같은 것을 보는 마지막 작가"
+      },
+      {
+        "id": "r10",
+        "source": "c-myeongja",
+        "target": "c-mujin",
+        "label": "2부 · 우리 작가",
+        "description": "50화에 단 한 번 \"무진아\""
+      },
+      {
+        "id": "r11",
+        "source": "c-mujin",
+        "target": "c-myeongja",
+        "label": "1부 · 의뢰인",
+        "description": ""
+      },
+      {
+        "id": "r12",
+        "source": "c-mujin",
+        "target": "c-myeongja",
+        "label": "2부 · 스승",
+        "description": "「보이는 걸 쓰지 말고, 보이지 않는 걸 써라.」"
+      },
+      {
+        "id": "r13",
+        "source": "c-myeongja",
+        "target": "c-haewon",
+        "label": "데뷔 무대를 준 대표",
+        "description": "2019년 「여름 정류장」"
+      },
+      {
+        "id": "r14",
+        "source": "c-haewon",
+        "target": "c-myeongja",
+        "label": "은인",
+        "description": ""
+      },
+      {
+        "id": "r15",
+        "source": "c-myeongja",
+        "target": "c-gitae",
+        "label": "20년 단원",
+        "description": ""
+      },
+      {
+        "id": "r16",
+        "source": "c-myeongja",
+        "target": "c-seokju",
+        "label": "옛 드라마투르그",
+        "description": "남편의 제자"
+      },
+      {
+        "id": "r17",
+        "source": "c-myeongja",
+        "target": "c-seongtae",
+        "label": "1부 · 건물주",
+        "description": "\"성태야\"라고 부르는 유일한 사람"
+      },
+      {
+        "id": "r18",
+        "source": "c-myeongja",
+        "target": "c-seongtae",
+        "label": "2부 · 옛 아역",
+        "description": "열쇠를 돌려줄 사람"
+      },
+      {
+        "id": "r19",
+        "source": "c-seongtae",
+        "target": "c-myeongja",
+        "label": "1부 · 세입자",
+        "description": "하십시오체의 거리"
+      },
+      {
+        "id": "r20",
+        "source": "c-seongtae",
+        "target": "c-myeongja",
+        "label": "2부 · 극장 할머니",
+        "description": "28일 밤 열두 시까지 극장을 지켜 준다"
+      },
+      {
+        "id": "r21",
+        "source": "c-gitae",
+        "target": "c-mujin",
+        "label": "1부 · 「유리 계단」의 옛 동료",
+        "description": "대리운전 비밀을 아는 유일한 사람"
+      },
+      {
+        "id": "r22",
+        "source": "c-gitae",
+        "target": "c-mujin",
+        "label": "2부 · 대리운전 길동무",
+        "description": "「니가 막을 수 있는 건 막뿐이야.」"
+      },
+      {
+        "id": "r23",
+        "source": "c-mujin",
+        "target": "c-gitae",
+        "label": "선배님",
+        "description": ""
+      },
+      {
+        "id": "r24",
+        "source": "c-gitae",
+        "target": "c-haewon",
+        "label": "아버지 같은 선배",
+        "description": ""
+      },
+      {
+        "id": "r25",
+        "source": "c-gitae",
+        "target": "c-jinhyuk",
+        "label": "2부 · 촬영장 탈출 운전기사",
+        "description": "56화 자유로"
+      },
+      {
+        "id": "r26",
+        "source": "c-jinhyuk",
+        "target": "c-mujin",
+        "label": "1부 · 남의 인생 훔쳐 쓰는 작가",
+        "description": "두 번째 리딩 파동"
+      },
+      {
+        "id": "r27",
+        "source": "c-jinhyuk",
+        "target": "c-mujin",
+        "label": "2부 · 형",
+        "description": "42화 세트장부터"
+      },
+      {
+        "id": "r28",
+        "source": "c-mujin",
+        "target": "c-jinhyuk",
+        "label": "1부 · 건방진 신인",
+        "description": ""
+      },
+      {
+        "id": "r29",
+        "source": "c-mujin",
+        "target": "c-jinhyuk",
+        "label": "2부 · 동생",
+        "description": "\"진혁아\""
+      },
+      {
+        "id": "r30",
+        "source": "c-jinhyuk",
+        "target": "c-haewon",
+        "label": "상대역",
+        "description": "청년과 여자"
+      },
+      {
+        "id": "r31",
+        "source": "c-somi",
+        "target": "c-haewon",
+        "label": "1부 · 동경",
+        "description": "「유리 계단」을 세 번 본 관객"
+      },
+      {
+        "id": "r32",
+        "source": "c-somi",
+        "target": "c-haewon",
+        "label": "2부 · 무대 위의 동료",
+        "description": ""
+      },
+      {
+        "id": "r33",
+        "source": "c-haewon",
+        "target": "c-somi",
+        "label": "1부 · 소미 씨 → 소미야",
+        "description": "10화부터 반말"
+      },
+      {
+        "id": "r34",
+        "source": "c-somi",
+        "target": "c-jinhyuk",
+        "label": "1부 · 짝사랑과 고백",
+        "description": "22화 옥상"
+      },
+      {
+        "id": "r35",
+        "source": "c-somi",
+        "target": "c-jinhyuk",
+        "label": "2부 · 연인",
+        "description": "49화부터 \"오빠\""
+      },
+      {
+        "id": "r36",
+        "source": "c-jinhyuk",
+        "target": "c-somi",
+        "label": "1부 · 시끄러운 후배",
+        "description": ""
+      },
+      {
+        "id": "r37",
+        "source": "c-jinhyuk",
+        "target": "c-somi",
+        "label": "2부 · 늦은 대답",
+        "description": "49화"
+      },
+      {
+        "id": "r38",
+        "source": "c-mujin",
+        "target": "c-somi",
+        "label": "편한 후배",
+        "description": "7화부터 \"소미야\""
+      },
+      {
+        "id": "r39",
+        "source": "c-sun",
+        "target": "c-daon",
+        "label": "1부 · 숨기는 엄마",
+        "description": "이력서"
+      },
+      {
+        "id": "r40",
+        "source": "c-sun",
+        "target": "c-daon",
+        "label": "2부 · 계속하는 엄마",
+        "description": "(대본을 펼친다.)"
+      },
+      {
+        "id": "r41",
+        "source": "c-daon",
+        "target": "c-sun",
+        "label": "엄마의 무대가 제일 좋은 딸",
+        "description": ""
+      },
+      {
+        "id": "r42",
+        "source": "c-sun",
+        "target": "c-haewon",
+        "label": "언니 같은 선배",
+        "description": ""
+      },
+      {
+        "id": "r43",
+        "source": "c-daon",
+        "target": "c-mujin",
+        "label": "1부 · 아저씨",
+        "description": "독설 합평가"
+      },
+      {
+        "id": "r44",
+        "source": "c-daon",
+        "target": "c-mujin",
+        "label": "2부 · 작가님",
+        "description": "59화에 처음"
+      },
+      {
+        "id": "r45",
+        "source": "c-mujin",
+        "target": "c-daon",
+        "label": "무서운 첫 독자",
+        "description": ""
+      },
+      {
+        "id": "r46",
+        "source": "c-seyoung",
+        "target": "c-hajun",
+        "label": "1부 · 앙숙",
+        "description": "「관객 고막은 공공재입니다.」"
+      },
+      {
+        "id": "r47",
+        "source": "c-seyoung",
+        "target": "c-hajun",
+        "label": "2부 · 큐 시스템 파트너",
+        "description": ""
+      },
+      {
+        "id": "r48",
+        "source": "c-hajun",
+        "target": "c-seyoung",
+        "label": "1부 · 감독님",
+        "description": ""
+      },
+      {
+        "id": "r49",
+        "source": "c-hajun",
+        "target": "c-seyoung",
+        "label": "2부 · 누나",
+        "description": "43화부터"
+      },
+      {
+        "id": "r50",
+        "source": "c-seyoung",
+        "target": "c-mujin",
+        "label": "크루 시절 동료",
+        "description": ""
+      },
+      {
+        "id": "r51",
+        "source": "c-yonggu",
+        "target": "c-mujin",
+        "label": "1부 · 죄책감",
+        "description": "캣워크 난간 볼트"
+      },
+      {
+        "id": "r52",
+        "source": "c-yonggu",
+        "target": "c-mujin",
+        "label": "2부 · 다시 올려 준 반장",
+        "description": ""
+      },
+      {
+        "id": "r53",
+        "source": "c-mujin",
+        "target": "c-yonggu",
+        "label": "반장님",
+        "description": "크루 시절 상사"
+      },
+      {
+        "id": "r54",
+        "source": "c-hajun",
+        "target": "c-mujin",
+        "label": "형",
+        "description": ""
+      },
+      {
+        "id": "r55",
+        "source": "c-hajun",
+        "target": "c-haewon",
+        "label": "1부 · 몰래 스피커를 옮겨 준 사람",
+        "description": "36화에 털어놓는다"
+      },
+      {
+        "id": "r56",
+        "source": "c-hajun",
+        "target": "c-garam",
+        "label": "동생",
+        "description": "수어를 배운 이유"
+      },
+      {
+        "id": "r57",
+        "source": "c-garam",
+        "target": "c-hajun",
+        "label": "누나",
+        "description": ""
+      },
+      {
+        "id": "r58",
+        "source": "c-garam",
+        "target": "c-haewon",
+        "label": "2부 · 다른 방식을 보여 준 사람",
+        "description": "「내 방식이 정답이라고 생각하지 마요.」"
+      },
+      {
+        "id": "r59",
+        "source": "c-haewon",
+        "target": "c-garam",
+        "label": "2부 · 수어 선배",
+        "description": ""
+      },
+      {
+        "id": "r60",
+        "source": "c-garam",
+        "target": "c-mujin",
+        "label": "2부 · 깐깐한 감수자",
+        "description": "「작가님은 손은 느린데 눈은 좋네요.」"
+      },
+      {
+        "id": "r61",
+        "source": "c-mujin",
+        "target": "c-garam",
+        "label": "2부 · 수어 선생",
+        "description": ""
+      },
+      {
+        "id": "r62",
+        "source": "c-daon",
+        "target": "c-seyoung",
+        "label": "2부 · 자막 오퍼의 상관",
+        "description": "\"자막 오퍼, 출근했습니다.\""
+      },
+      {
+        "id": "r63",
+        "source": "c-seokju",
+        "target": "c-mujin",
+        "label": "1부 · 혹평",
+        "description": "「지문만 있고 사람은 없다」"
+      },
+      {
+        "id": "r64",
+        "source": "c-seokju",
+        "target": "c-mujin",
+        "label": "2부 · 증인",
+        "description": "「이번에는 사람이 있었다」"
+      },
+      {
+        "id": "r65",
+        "source": "c-mujin",
+        "target": "c-seokju",
+        "label": "1부 · 원수",
+        "description": ""
+      },
+      {
+        "id": "r66",
+        "source": "c-mujin",
+        "target": "c-seokju",
+        "label": "2부 · 선생님",
+        "description": "44화 포장마차부터"
+      },
+      {
+        "id": "r67",
+        "source": "c-seongtae",
+        "target": "c-mujin",
+        "label": "2부 · 하루를 내준 건물주",
+        "description": "52화"
+      },
+      {
+        "id": "r68",
+        "source": "c-mugyeong",
+        "target": "c-mujin",
+        "label": "동생",
+        "description": "오빠 구박 담당"
+      },
+      {
+        "id": "r69",
+        "source": "c-mujin",
+        "target": "c-mugyeong",
+        "label": "오빠",
+        "description": ""
+      },
+      {
+        "id": "r70",
+        "source": "c-mugyeong",
+        "target": "c-haewon",
+        "label": "1부 · 응급실의 보호자",
+        "description": ""
+      },
+      {
+        "id": "r71",
+        "source": "c-soonae",
+        "target": "c-haewon",
+        "label": "1부 · 서울로 보낸 딸",
+        "description": ""
+      },
+      {
+        "id": "r72",
+        "source": "c-soonae",
+        "target": "c-haewon",
+        "label": "2부 · 객석에서 보는 딸",
+        "description": "54화"
+      },
+      {
+        "id": "r73",
+        "source": "c-haewon",
+        "target": "c-soonae",
+        "label": "엄마",
+        "description": ""
+      },
+      {
+        "id": "r74",
+        "source": "c-soonae",
+        "target": "c-mujin",
+        "label": "2부 · 총각",
+        "description": "34화"
+      },
+      {
+        "id": "r75",
+        "source": "c-soonae",
+        "target": "c-mujin",
+        "label": "2부 · 작가 선생",
+        "description": "54화부터"
+      },
+      {
+        "id": "r76",
+        "source": "c-mujin",
+        "target": "i-note",
+        "label": "3년째 지갑 속",
+        "description": ""
+      },
+      {
+        "id": "r77",
+        "source": "c-mujin",
+        "target": "i-review",
+        "label": "접어 둔 혹평",
+        "description": ""
+      },
+      {
+        "id": "r78",
+        "source": "c-mujin",
+        "target": "p-catwalk",
+        "label": "추락한 곳",
+        "description": "2022.11.13"
+      },
+      {
+        "id": "r79",
+        "source": "c-mujin",
+        "target": "i-script",
+        "label": "작가",
+        "description": ""
+      },
+      {
+        "id": "r80",
+        "source": "c-haewon",
+        "target": "i-note",
+        "label": "쪽지를 쓴 사람",
+        "description": ""
+      },
+      {
+        "id": "r81",
+        "source": "c-haewon",
+        "target": "i-pills",
+        "label": "늘 지닌다",
+        "description": ""
+      },
+      {
+        "id": "r82",
+        "source": "c-myeongja",
+        "target": "i-keys",
+        "label": "1부 · 지켜 온 열쇠",
+        "description": ""
+      },
+      {
+        "id": "r83",
+        "source": "c-myeongja",
+        "target": "i-keys",
+        "label": "2부 · 돌려줄 열쇠",
+        "description": "59화"
+      },
+      {
+        "id": "r84",
+        "source": "c-myeongja",
+        "target": "i-lastnote",
+        "label": "따로 간직한 노트",
+        "description": ""
+      },
+      {
+        "id": "r85",
+        "source": "c-myeongja",
+        "target": "i-exitsign",
+        "label": "마지막에 플러그를 뽑는다",
+        "description": ""
+      },
+      {
+        "id": "r86",
+        "source": "c-seongtae",
+        "target": "i-photo",
+        "label": "1991년의 자신",
+        "description": "종이 별 하나가 짧다"
+      },
+      {
+        "id": "r87",
+        "source": "c-seongtae",
+        "target": "i-keys",
+        "label": "2부 · 열쇠를 받는다",
+        "description": ""
+      },
+      {
+        "id": "r88",
+        "source": "c-seokju",
+        "target": "i-review",
+        "label": "쓴 사람",
+        "description": ""
+      },
+      {
+        "id": "r89",
+        "source": "c-jinhyuk",
+        "target": "i-contract",
+        "label": "서명",
+        "description": ""
+      },
+      {
+        "id": "r90",
+        "source": "c-sun",
+        "target": "i-resume",
+        "label": "썼다가 접는다",
+        "description": ""
+      },
+      {
+        "id": "r91",
+        "source": "c-daon",
+        "target": "i-daonnote",
+        "label": "주인",
+        "description": ""
+      },
+      {
+        "id": "r92",
+        "source": "c-hajun",
+        "target": "i-shaker",
+        "label": "만든 사람",
+        "description": ""
+      },
+      {
+        "id": "r93",
+        "source": "c-mujin",
+        "target": "i-shaker",
+        "label": "고장 난 밤 대신 두드린다",
+        "description": "57화"
+      },
+      {
+        "id": "r94",
+        "source": "c-gitae",
+        "target": "i-vest",
+        "label": "비밀",
+        "description": ""
+      },
+      {
+        "id": "r95",
+        "source": "i-notebooks",
+        "target": "p-props",
+        "label": "보관",
+        "description": ""
+      },
+      {
+        "id": "r96",
+        "source": "i-exitsign",
+        "target": "p-stage",
+        "label": "하수 안쪽 문 위",
+        "description": ""
+      }
+    ]
+  },
+  "folders": [
+    {
+      "id": "f-chars",
+      "scope": "settings",
+      "name": "인물",
+      "parentId": null
+    },
+    {
+      "id": "f-c-core",
+      "scope": "settings",
+      "name": "무진과 해원",
+      "parentId": "f-chars"
+    },
+    {
+      "id": "f-c-troupe",
+      "scope": "settings",
+      "name": "극단 비상구",
+      "parentId": "f-chars"
+    },
+    {
+      "id": "f-c-crew",
+      "scope": "settings",
+      "name": "무대 뒤 사람들",
+      "parentId": "f-chars"
+    },
+    {
+      "id": "f-c-outside",
+      "scope": "settings",
+      "name": "극장 바깥 사람들",
+      "parentId": "f-chars"
+    },
+    {
+      "id": "f-c-family",
+      "scope": "settings",
+      "name": "가족",
+      "parentId": "f-chars"
+    },
+    {
+      "id": "f-events",
+      "scope": "settings",
+      "name": "사건",
+      "parentId": null
+    },
+    {
+      "id": "f-p1",
+      "scope": "settings",
+      "name": "1부 막이 오르기까지",
+      "parentId": "f-events"
+    },
+    {
+      "id": "f-ch1",
+      "scope": "settings",
+      "name": "제1장 비상구",
+      "parentId": "f-p1"
+    },
+    {
+      "id": "f-ch2",
+      "scope": "settings",
+      "name": "제2장 오디션",
+      "parentId": "f-p1"
+    },
+    {
+      "id": "f-ch3",
+      "scope": "settings",
+      "name": "제3장 대본 읽는 시간",
+      "parentId": "f-p1"
+    },
+    {
+      "id": "f-ch4",
+      "scope": "settings",
+      "name": "제4장 소품실",
+      "parentId": "f-p1"
+    },
+    {
+      "id": "f-ch5",
+      "scope": "settings",
+      "name": "제5장 테크 위크",
+      "parentId": "f-p1"
+    },
+    {
+      "id": "f-ch6",
+      "scope": "settings",
+      "name": "제6장 첫공",
+      "parentId": "f-p1"
+    },
+    {
+      "id": "f-p2",
+      "scope": "settings",
+      "name": "2부 커튼콜",
+      "parentId": "f-events"
+    },
+    {
+      "id": "f-ch7",
+      "scope": "settings",
+      "name": "제7장 막간",
+      "parentId": "f-p2"
+    },
+    {
+      "id": "f-ch8",
+      "scope": "settings",
+      "name": "제8장 소리 없는 대본",
+      "parentId": "f-p2"
+    },
+    {
+      "id": "f-ch9",
+      "scope": "settings",
+      "name": "제9장 재집결",
+      "parentId": "f-p2"
+    },
+    {
+      "id": "f-ch10",
+      "scope": "settings",
+      "name": "제10장 진동",
+      "parentId": "f-p2"
+    },
+    {
+      "id": "f-ch11",
+      "scope": "settings",
+      "name": "제11장 폐관 전야",
+      "parentId": "f-p2"
+    },
+    {
+      "id": "f-ch12",
+      "scope": "settings",
+      "name": "제12장 커튼콜",
+      "parentId": "f-p2"
+    },
+    {
+      "id": "f-places",
+      "scope": "settings",
+      "name": "배경",
+      "parentId": null
+    },
+    {
+      "id": "f-pl-theater",
+      "scope": "settings",
+      "name": "소극장 비상구",
+      "parentId": "f-places"
+    },
+    {
+      "id": "f-pl-daehakro",
+      "scope": "settings",
+      "name": "대학로",
+      "parentId": "f-places"
+    },
+    {
+      "id": "f-pl-seoul",
+      "scope": "settings",
+      "name": "서울과 근교",
+      "parentId": "f-places"
+    },
+    {
+      "id": "f-pl-tongyeong",
+      "scope": "settings",
+      "name": "통영",
+      "parentId": "f-places"
+    },
+    {
+      "id": "f-items",
+      "scope": "settings",
+      "name": "물건",
+      "parentId": null
+    },
+    {
+      "id": "g-people",
+      "scope": "relations",
+      "name": "인물 관계",
+      "parentId": null
+    },
+    {
+      "id": "g-parts",
+      "scope": "relations",
+      "name": "부별 관계도",
+      "parentId": null
+    },
+    {
+      "id": "g-world",
+      "scope": "relations",
+      "name": "극장과 물건",
+      "parentId": null
+    }
+  ],
+  "views": {
+    "boards": [
+      {
+        "id": "b-all",
+        "name": "전체 인물",
+        "folderId": "g-people",
+        "layout": {
+          "c-mujin": {
+            "x": 0,
+            "y": -140
+          },
+          "c-haewon": {
+            "x": 0,
+            "y": 140
+          },
+          "c-myeongja": {
+            "x": 700,
+            "y": -230
+          },
+          "c-gitae": {
+            "x": 919,
+            "y": -71
+          },
+          "c-jinhyuk": {
+            "x": 835,
+            "y": 186
+          },
+          "c-somi": {
+            "x": 565,
+            "y": 186
+          },
+          "c-sun": {
+            "x": 481,
+            "y": -71
+          },
+          "c-seyoung": {
+            "x": 0,
+            "y": 420
+          },
+          "c-yonggu": {
+            "x": 199,
+            "y": 765
+          },
+          "c-hajun": {
+            "x": -199,
+            "y": 765
+          },
+          "c-garam": {
+            "x": 700,
+            "y": 420
+          },
+          "c-seokju": {
+            "x": 899,
+            "y": 765
+          },
+          "c-seongtae": {
+            "x": 501,
+            "y": 765
+          },
+          "c-daon": {
+            "x": 1400,
+            "y": 70
+          },
+          "c-mugyeong": {
+            "x": 1599,
+            "y": 415
+          },
+          "c-soonae": {
+            "x": 1201,
+            "y": 415
+          }
+        }
+      },
+      {
+        "id": "b-pair",
+        "name": "무진과 해원",
+        "folderId": "g-people",
+        "layout": {
+          "c-mujin": {
+            "x": 0,
+            "y": 0
+          },
+          "c-haewon": {
+            "x": 0,
+            "y": -420
+          },
+          "i-note": {
+            "x": 297,
+            "y": -297
+          },
+          "i-pills": {
+            "x": 420,
+            "y": 0
+          },
+          "i-script": {
+            "x": 297,
+            "y": 297
+          },
+          "c-soonae": {
+            "x": 0,
+            "y": 420
+          },
+          "p-dongpirang": {
+            "x": -297,
+            "y": 297
+          },
+          "p-roof": {
+            "x": -420,
+            "y": 0
+          },
+          "p-catwalk": {
+            "x": -297,
+            "y": -297
+          }
+        }
+      },
+      {
+        "id": "b-crew",
+        "name": "무대 뒤 사람들",
+        "folderId": "g-people",
+        "layout": {
+          "c-mujin": {
+            "x": 0,
+            "y": 0
+          },
+          "c-seyoung": {
+            "x": 0,
+            "y": -400
+          },
+          "c-yonggu": {
+            "x": 346,
+            "y": -200
+          },
+          "c-hajun": {
+            "x": 346,
+            "y": 200
+          },
+          "c-garam": {
+            "x": 0,
+            "y": 400
+          },
+          "c-daon": {
+            "x": -346,
+            "y": 200
+          },
+          "i-shaker": {
+            "x": -346,
+            "y": -200
+          }
+        }
+      },
+      {
+        "id": "b-p1",
+        "name": "1부 — 막이 오르기까지",
+        "folderId": "g-parts",
+        "layout": {
+          "c-mujin": {
+            "x": 0,
+            "y": 0
+          },
+          "c-haewon": {
+            "x": 0,
+            "y": -520
+          },
+          "c-myeongja": {
+            "x": 242,
+            "y": -460
+          },
+          "c-gitae": {
+            "x": 428,
+            "y": -295
+          },
+          "c-jinhyuk": {
+            "x": 516,
+            "y": -63
+          },
+          "c-somi": {
+            "x": 486,
+            "y": 184
+          },
+          "c-sun": {
+            "x": 345,
+            "y": 389
+          },
+          "c-daon": {
+            "x": 124,
+            "y": 505
+          },
+          "c-seyoung": {
+            "x": -124,
+            "y": 505
+          },
+          "c-yonggu": {
+            "x": -345,
+            "y": 389
+          },
+          "c-hajun": {
+            "x": -486,
+            "y": 184
+          },
+          "c-seokju": {
+            "x": -516,
+            "y": -63
+          },
+          "c-seongtae": {
+            "x": -428,
+            "y": -295
+          },
+          "c-mugyeong": {
+            "x": -242,
+            "y": -460
+          }
+        }
+      },
+      {
+        "id": "b-p2",
+        "name": "2부 — 커튼콜",
+        "folderId": "g-parts",
+        "layout": {
+          "c-mujin": {
+            "x": 0,
+            "y": 0
+          },
+          "c-haewon": {
+            "x": 0,
+            "y": -520
+          },
+          "c-myeongja": {
+            "x": 212,
+            "y": -475
+          },
+          "c-gitae": {
+            "x": 386,
+            "y": -348
+          },
+          "c-jinhyuk": {
+            "x": 495,
+            "y": -161
+          },
+          "c-somi": {
+            "x": 517,
+            "y": 54
+          },
+          "c-sun": {
+            "x": 450,
+            "y": 260
+          },
+          "c-daon": {
+            "x": 306,
+            "y": 421
+          },
+          "c-seyoung": {
+            "x": 108,
+            "y": 509
+          },
+          "c-yonggu": {
+            "x": -108,
+            "y": 509
+          },
+          "c-hajun": {
+            "x": -306,
+            "y": 421
+          },
+          "c-garam": {
+            "x": -450,
+            "y": 260
+          },
+          "c-seokju": {
+            "x": -517,
+            "y": 54
+          },
+          "c-seongtae": {
+            "x": -495,
+            "y": -161
+          },
+          "c-mugyeong": {
+            "x": -386,
+            "y": -348
+          },
+          "c-soonae": {
+            "x": -212,
+            "y": -475
+          }
+        }
+      },
+      {
+        "id": "b-theater",
+        "name": "소극장 비상구",
+        "folderId": "g-world",
+        "layout": {
+          "p-lobby": {
+            "x": 0,
+            "y": -380
+          },
+          "p-house": {
+            "x": 244,
+            "y": -291
+          },
+          "p-booth": {
+            "x": 374,
+            "y": -66
+          },
+          "p-stage": {
+            "x": 329,
+            "y": 190
+          },
+          "p-catwalk": {
+            "x": 130,
+            "y": 357
+          },
+          "p-understage": {
+            "x": -130,
+            "y": 357
+          },
+          "p-dressing": {
+            "x": -329,
+            "y": 190
+          },
+          "p-props": {
+            "x": -374,
+            "y": -66
+          },
+          "p-roof": {
+            "x": -244,
+            "y": -291
+          },
+          "c-myeongja": {
+            "x": 650,
+            "y": -200
+          },
+          "c-seongtae": {
+            "x": 650,
+            "y": 0
+          },
+          "c-mujin": {
+            "x": 650,
+            "y": 200
+          },
+          "i-keys": {
+            "x": 950,
+            "y": -200
+          },
+          "i-photo": {
+            "x": 950,
+            "y": 0
+          },
+          "i-exitsign": {
+            "x": 950,
+            "y": 200
+          },
+          "i-notebooks": {
+            "x": 950,
+            "y": 400
+          },
+          "i-lastnote": {
+            "x": 650,
+            "y": 400
+          }
+        }
+      }
+    ]
+  }
+}
