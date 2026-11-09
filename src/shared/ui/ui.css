@@ -234,7 +234,7 @@ label.field > textarea {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .mobile-only {
     display: inline-block;
   }
@@ -295,4 +295,64 @@ label.field > textarea {
   flex: 1;
   min-width: 0;
   overflow-y: auto;
+}
+
+/* Allow flex/grid children and long user content to shrink within the viewport. */
+.app-content, .page, .sidebar, .detail-panel, .detail-body,
+.row > *, .entity-list > li, fieldset {
+  min-width: 0;
+}
+
+.detail-panel, .detail-body, .page-main {
+  min-height: 0;
+}
+
+.detail-header {
+  flex-shrink: 0;
+  gap: 8px;
+}
+
+.detail-header h2, .detail-body, .settings-folder-name,
+.entity-card strong, .link-list button, .board-list button {
+  overflow-wrap: anywhere;
+}
+
+.entity-desc { max-width: 100%; }
+
+@media (max-width: 1024px) {
+  button, .tree-toolbar button, .tree-toggle, .tree-label, .icon-button {
+    min-height: 44px;
+  }
+
+  .icon-button, .tree-toggle { min-width: 44px; }
+
+  input, select { min-height: 44px; }
+
+  .sidebar {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    overscroll-behavior: contain;
+  }
+
+  .detail-header {
+    padding-top: max(8px, env(safe-area-inset-top));
+  }
+
+  .detail-body {
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+    overscroll-behavior: contain;
+  }
+
+  .detail-panel.full { height: 100dvh; }
+  .detail-panel.sheet { max-height: 60dvh; }
+
+  .page-main {
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar { transition: none; }
 }

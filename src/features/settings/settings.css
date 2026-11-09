@@ -122,3 +122,23 @@
   color: var(--muted);
   min-width: 3em;
 }
+
+.entity-list {
+  grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+}
+
+.attribute-row { grid-template-columns: minmax(0, 1fr) auto; }
+.field-group { min-inline-size: 0; }
+.date-input { flex-wrap: wrap; }
+.place-step-name { overflow-wrap: anywhere; }
+
+@media (max-width: 600px) {
+  .date-input { gap: 6px; }
+  .date-input label { flex: 1 1 70px; }
+  .date-input label:first-child { flex-basis: 100%; }
+  .date-input input, .date-input label:first-child input {
+    width: 0;
+    min-width: 0;
+    flex: 1;
+  }
+}

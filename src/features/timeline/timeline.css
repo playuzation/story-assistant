@@ -43,3 +43,13 @@
   background: var(--event);
   opacity: 0.85;
 }
+
+.timeline-scroll { overflow-x: auto; }
+.timeline { min-width: 100%; width: fit-content; }
+.timeline-items { min-width: 0; overflow-wrap: anywhere; }
+
+@media (max-width: 600px) {
+  .timeline { padding: 6px; column-gap: 3px; }
+  .timeline-date { white-space: normal; max-width: 88px; overflow-wrap: anywhere; }
+  .timeline-filter { max-width: none; }
+}

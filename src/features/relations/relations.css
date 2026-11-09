@@ -109,9 +109,20 @@
   white-space: pre-wrap;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .entity-node .react-flow__handle {
     width: 18px;
     height: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .board-main { padding: 0; }
+  .board-toolbar { flex-wrap: wrap; }
+  .board-title { flex: 1 1 120px; }
+  .board-toolbar > .primary { flex: 1 1 100%; }
+  .react-flow__controls-button {
+    width: 44px;
+    height: 44px;
   }
 }

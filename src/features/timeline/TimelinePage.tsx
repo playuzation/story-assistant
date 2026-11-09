@@ -37,31 +37,33 @@ export function TimelinePage() {
             표시할 날짜가 없습니다. 설정 페이지에서 사건의 발생일·종료일이나 요소의 날짜(기념일 등)를 입력하세요.
           </p>
         ) : (
-          <div className="timeline" style={{ gridTemplateColumns: `auto ${'14px '.repeat(laneCount)}1fr` }}>
-            {rows.map((row, i) => (
-              <Fragment key={i}>
-                <div className="timeline-date" style={{ gridRow: i + 1, gridColumn: 1 }}>
-                  {formatStoryDate(row.date)}
-                </div>
-                <ul className="timeline-items" style={{ gridRow: i + 1, gridColumn: laneCount + 2 }}>
-                  {row.items.map((item, j) => (
-                    <li key={j} className="row">
-                      <KindBadge kind={item.entity.kind} />
-                      <strong>{item.entity.name || '(이름 없음)'}</strong>
-                      {item.text && <span className="muted">{item.text}</span>}
-                    </li>
-                  ))}
-                </ul>
-              </Fragment>
-            ))}
-            {bars.map((bar) => (
-              <div
-                key={bar.entity.id}
-                className="timeline-bar"
-                title={bar.entity.name}
-                style={{ gridRow: `${bar.startRow + 1} / ${bar.endRow + 2}`, gridColumn: bar.lane + 2 }}
-              />
-            ))}
+          <div className="timeline-scroll" role="region" aria-label="타임라인" tabIndex={0}>
+            <div className="timeline" style={{ gridTemplateColumns: `auto ${'14px '.repeat(laneCount)}minmax(120px, 1fr)` }}>
+              {rows.map((row, i) => (
+                <Fragment key={i}>
+                  <div className="timeline-date" style={{ gridRow: i + 1, gridColumn: 1 }}>
+                    {formatStoryDate(row.date)}
+                  </div>
+                  <ul className="timeline-items" style={{ gridRow: i + 1, gridColumn: laneCount + 2 }}>
+                    {row.items.map((item, j) => (
+                      <li key={j} className="row">
+                        <KindBadge kind={item.entity.kind} />
+                        <strong>{item.entity.name || '(이름 없음)'}</strong>
+                        {item.text && <span className="muted">{item.text}</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </Fragment>
+              ))}
+              {bars.map((bar) => (
+                <div
+                  key={bar.entity.id}
+                  className="timeline-bar"
+                  title={bar.entity.name}
+                  style={{ gridRow: `${bar.startRow + 1} / ${bar.endRow + 2}`, gridColumn: bar.lane + 2 }}
+                />
+              ))}
+            </div>
           </div>
         )}
 

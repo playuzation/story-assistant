@@ -71,7 +71,7 @@
   background: rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .app-title {
     display: none;
   }
@@ -88,5 +88,35 @@
     max-width: 120px;
     padding: 4px 8px;
     font-size: 13px;
+  }
+}
+
+.story-dialog {
+  max-height: calc(100dvh - 24px);
+  overflow-y: auto;
+}
+
+@media (max-width: 600px) {
+  .app-header {
+    flex-wrap: wrap;
+    padding-left: max(12px, env(safe-area-inset-left));
+    padding-right: max(12px, env(safe-area-inset-right));
+  }
+
+  .story-button {
+    order: -1;
+    max-width: 100%;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .app-nav { width: 100%; }
+  .app-nav a {
+    flex: 1;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
   }
 }
