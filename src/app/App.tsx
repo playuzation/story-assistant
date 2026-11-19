@@ -34,9 +34,9 @@ export function App() {
     <div className="app">
       <header className="app-header">
         <h1 className="app-title">Story Assistant</h1>
-        <nav className="app-nav">
+        <nav className="app-nav" aria-label="페이지 이동">
           {(Object.keys(PAGES) as Route[]).map((key) => (
-            <a key={key} href={`#/${key}`} className={route === key ? 'active' : ''}>
+            <a key={key} href={`#/${key}`} aria-current={route === key ? 'page' : undefined}>
               {PAGES[key].label}
             </a>
           ))}

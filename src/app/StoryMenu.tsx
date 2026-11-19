@@ -53,7 +53,7 @@ export function StoryMenu({ onReplace }: StoryMenuProps) {
   };
 
   return (
-    <>
+    <div className="story-menu">
       <button type="button" className="story-button" onClick={() => dialogRef.current?.showModal()}>
         📖 <span className="story-button-title">{story.title || '제목 없는 이야기'}</span>
       </button>
@@ -96,6 +96,6 @@ export function StoryMenu({ onReplace }: StoryMenuProps) {
           />
         </div>
       </dialog>
-    </>
+    </div>
   );
 }

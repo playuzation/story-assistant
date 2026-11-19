@@ -240,30 +240,32 @@ label.field > textarea {
   }
 
   .sidebar {
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     z-index: 30;
     width: min(80vw, 300px);
+    visibility: hidden;
     transform: translateX(-100%);
-    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, visibility 0.2s;
   }
 
   .sidebar.open {
+    visibility: visible;
     transform: none;
   }
 
   .backdrop {
     display: block;
-    position: fixed;
+    position: absolute;
     inset: 0;
     z-index: 25;
     background: rgba(0, 0, 0, 0.3);
   }
 
   .detail-panel {
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
@@ -329,27 +331,30 @@ label.field > textarea {
   input, select { min-height: 44px; }
 
   .sidebar {
-    padding-top: env(safe-area-inset-top);
-    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
     overscroll-behavior: contain;
-  }
-
-  .detail-header {
-    padding-top: max(8px, env(safe-area-inset-top));
   }
 
   .detail-body {
-    padding-bottom: max(16px, env(safe-area-inset-bottom));
+    padding: 16px max(16px, env(safe-area-inset-right)) 16px max(16px, env(safe-area-inset-left));
     overscroll-behavior: contain;
   }
 
-  .detail-panel.full { height: 100dvh; }
-  .detail-panel.sheet { max-height: 60dvh; }
+  .detail-panel.sheet { max-height: 60%; }
+
+  .detail-header h2 { font-size: 18px; }
+
+  label.field, .muted, .tree-toolbar button {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  .badge { font-size: 0.8125rem; }
 
   .page-main {
     padding-left: max(12px, env(safe-area-inset-left));
     padding-right: max(12px, env(safe-area-inset-right));
-    padding-bottom: max(12px, env(safe-area-inset-bottom));
+    padding-bottom: 16px;
   }
 }
 

@@ -48,8 +48,12 @@
 .timeline { min-width: 100%; width: fit-content; }
 .timeline-items { min-width: 0; overflow-wrap: anywhere; }
 
+@media (max-width: 1024px) {
+  .timeline-date { font-size: 0.9375rem; }
+}
+
 @media (max-width: 600px) {
-  .timeline { padding: 6px; column-gap: 3px; }
+  .timeline { width: 100%; padding: 8px; column-gap: 4px; }
   .timeline-date { white-space: normal; max-width: 88px; overflow-wrap: anywhere; }
   .timeline-filter { max-width: none; }
 }

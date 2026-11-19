@@ -132,6 +132,22 @@
 .date-input { flex-wrap: wrap; }
 .place-step-name { overflow-wrap: anywhere; }
 
+@media (max-width: 1024px) {
+  .settings-main { gap: 14px; }
+  .entity-card { padding: 14px; }
+  .entity-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .field-group legend, .date-row-label, .chip {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 600px) {
   .date-input { gap: 6px; }
   .date-input label { flex: 1 1 70px; }

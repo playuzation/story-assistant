@@ -110,13 +110,13 @@
 }
 
 @media (max-width: 1024px) {
+  .entity-node, .panel-subtitle { font-size: 1rem; }
+
   .entity-node .react-flow__handle {
     width: 18px;
     height: 18px;
   }
-}
 
-@media (max-width: 1024px) {
   .board-main { padding: 0; }
   .board-toolbar { flex-wrap: wrap; }
   .board-title { flex: 1 1 120px; }
